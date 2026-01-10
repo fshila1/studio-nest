@@ -1,0 +1,38 @@
+<h2 mat-dialog-title>Book {{ data.studio.name }}</h2>
+<mat-dialog-content>
+    <form [formGroup]="bookingForm" class="booking-form">
+        <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="userName" placeholder="John Doe">
+            <mat-error *ngIf="bookingForm.get('userName')?.hasError('required')">Name is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" placeholder="john@example.com">
+            <mat-error *ngIf="bookingForm.get('email')?.hasError('email')">Invalid email</mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Date</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="bookingDate">
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Time Slot</mat-label>
+            <mat-select formControlName="timeSlot">
+                <mat-option *ngFor="let slot of availableSlots" [value]="slot">
+                    {{ slot }}
+                </mat-option>
+                <mat-option *ngIf="availableSlots.length === 0" disabled>No slots available</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="bookingForm.invalid">Confirm
+        Booking</button>
+</mat-dialog-actions>

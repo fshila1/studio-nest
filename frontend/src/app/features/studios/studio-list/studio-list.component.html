@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="header-section mb-3">
+        <h1>Find Your Creative Space</h1>
+        <div class="search-bar">
+            <mat-form-field appearance="outline" class="w-100">
+                <mat-label>Search by Area</mat-label>
+                <input matInput [(ngModel)]="searchArea" (keyup.enter)="onSearch()" placeholder="e.g. Downtown">
+                <button mat-icon-button matSuffix (click)="onSearch()">
+                    <mat-icon>search</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="studio-grid">
+        <app-studio-card *ngFor="let studio of studios" [studio]="studio" (book)="openBookingModal($event)">
+        </app-studio-card>
+    </div>
+
+    <div *ngIf="studios.length === 0" class="no-results">
+        <p>No studios found. Try a different search.</p>
+    </div>
+</div>

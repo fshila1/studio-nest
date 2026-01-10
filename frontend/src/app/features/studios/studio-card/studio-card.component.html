@@ -1,0 +1,27 @@
+<mat-card class="studio-card">
+  <img mat-card-image [src]="studio.images[0]" [alt]="studio.name">
+  <mat-card-content>
+    <div class="d-flex justify-between align-center mt-3">
+      <h2 class="mat-h2 mb-0">{{ studio.name }}</h2>
+      <div class="d-flex align-center">
+        <mat-icon class="text-primary">star</mat-icon>
+        <span>{{ studio.rating }}</span>
+      </div>
+    </div>
+    <p class="text-muted">{{ studio.type }} • {{ studio.area }}</p>
+    <p class="description">{{ studio.description | slice:0:100 }}...</p>
+    
+    <div class="amenities d-flex gap-2">
+      <span *ngFor="let amenity of studio.amenities | slice:0:3" class="amenity-badge">
+        {{ amenity }}
+      </span>
+      <span *ngIf="studio.amenities.length > 3" class="amenity-badge">+{{ studio.amenities.length - 3 }}</span>
+    </div>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <div class="price-tag spacer">
+      <span class="price">${{ studio.pricePerHour }}</span> / hr
+    </div>
+    <button mat-raised-button color="primary" (click)="onBook()">Book Now</button>
+  </mat-card-actions>
+</mat-card>

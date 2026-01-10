@@ -1,0 +1,1881 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/farhana/Documents/projects/selise-studio/frontend/.npmrc
+5 silly config load:file:/Users/farhana/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @angular/material@17 @angular/cdk@17
+8 verbose argv "install" "@angular/material@17" "@angular/cdk@17"
+9 verbose logfile logs-max:10 dir:/Users/farhana/Documents/projects/selise-studio/.npm-cache/_logs/2026-01-10T06_26_42_270Z-
+10 verbose logfile /Users/farhana/Documents/projects/selise-studio/.npm-cache/_logs/2026-01-10T06_26_42_270Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @angular/material@17
+15 silly packumentCache full:https://registry.npmjs.org/@angular%2fmaterial cache-miss
+16 http cache https://registry.npmjs.org/@angular%2fmaterial 71ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@angular%2fmaterial set size:8849533 disposed:false
+18 silly fetch manifest @angular/animations@^17.3.0
+19 silly packumentCache full:https://registry.npmjs.org/@angular%2fanimations cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 241ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@angular%2fanimations set size:undefined disposed:false
+22 silly fetch manifest @angular/core@^17.3.0
+23 silly packumentCache full:https://registry.npmjs.org/@angular%2fcore cache-miss
+24 http cache https://registry.npmjs.org/@angular%2fcore 4ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/@angular%2fcore set size:2832332 disposed:false
+26 silly fetch manifest rxjs@~7.8.0
+27 silly packumentCache full:https://registry.npmjs.org/rxjs cache-miss
+28 http cache https://registry.npmjs.org/rxjs 3ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/rxjs set size:980097 disposed:false
+30 silly fetch manifest zone.js@~0.14.3
+31 silly packumentCache full:https://registry.npmjs.org/zone.js cache-miss
+32 http cache https://registry.npmjs.org/zone.js 2ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/zone.js set size:372304 disposed:false
+34 silly fetch manifest @angular/cdk@17
+35 silly packumentCache full:https://registry.npmjs.org/@angular%2fcdk cache-miss
+36 http cache https://registry.npmjs.org/@angular%2fcdk 4ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/@angular%2fcdk set size:3475263 disposed:false
+38 silly fetch manifest @angular/common@^17.3.0
+39 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon cache-miss
+40 http cache https://registry.npmjs.org/@angular%2fcommon 5ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon set size:2967259 disposed:false
+42 silly fetch manifest @angular/forms@^17.3.0
+43 silly packumentCache full:https://registry.npmjs.org/@angular%2fforms cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@angular%2fforms 370ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@angular%2fforms set size:undefined disposed:false
+46 silly fetch manifest @angular/platform-browser@^17.3.0
+47 silly packumentCache full:https://registry.npmjs.org/@angular%2fplatform-browser cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 328ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@angular%2fplatform-browser set size:undefined disposed:false
+50 silly placeDep ROOT @angular/cdk@17.3.10 OK for: frontend@0.0.0 want: 17
+51 silly placeDep ROOT @angular/material@17.3.10 OK for: frontend@0.0.0 want: 17
+52 silly fetch manifest @material/dom@15.0.0-canary.7f224ddd4.0
+53 silly packumentCache full:https://registry.npmjs.org/@material%2fdom cache-miss
+54 silly fetch manifest @material/fab@15.0.0-canary.7f224ddd4.0
+55 silly packumentCache full:https://registry.npmjs.org/@material%2ffab cache-miss
+56 silly fetch manifest @material/rtl@15.0.0-canary.7f224ddd4.0
+57 silly packumentCache full:https://registry.npmjs.org/@material%2frtl cache-miss
+58 silly fetch manifest @material/tab@15.0.0-canary.7f224ddd4.0
+59 silly packumentCache full:https://registry.npmjs.org/@material%2ftab cache-miss
+60 silly fetch manifest @material/base@15.0.0-canary.7f224ddd4.0
+61 silly packumentCache full:https://registry.npmjs.org/@material%2fbase cache-miss
+62 silly fetch manifest @material/card@15.0.0-canary.7f224ddd4.0
+63 silly packumentCache full:https://registry.npmjs.org/@material%2fcard cache-miss
+64 silly fetch manifest @material/list@15.0.0-canary.7f224ddd4.0
+65 silly packumentCache full:https://registry.npmjs.org/@material%2flist cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@material%2fdom 451ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/@material%2fdom set size:undefined disposed:false
+68 silly fetch manifest @material/menu@15.0.0-canary.7f224ddd4.0
+69 silly packumentCache full:https://registry.npmjs.org/@material%2fmenu cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@material%2frtl 2732ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/@material%2frtl set size:undefined disposed:false
+72 silly fetch manifest @material/chips@15.0.0-canary.7f224ddd4.0
+73 silly packumentCache full:https://registry.npmjs.org/@material%2fchips cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/@material%2ffab 2922ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/@material%2ffab set size:undefined disposed:false
+76 silly fetch manifest @material/radio@15.0.0-canary.7f224ddd4.0
+77 silly packumentCache full:https://registry.npmjs.org/@material%2fradio cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/@material%2fbase 2971ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/@material%2fbase set size:undefined disposed:false
+80 silly fetch manifest @material/shape@15.0.0-canary.7f224ddd4.0
+81 silly packumentCache full:https://registry.npmjs.org/@material%2fshape cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/@material%2ftab 3318ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/@material%2ftab set size:undefined disposed:false
+84 silly fetch manifest @material/theme@15.0.0-canary.7f224ddd4.0
+85 silly packumentCache full:https://registry.npmjs.org/@material%2ftheme cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/@material%2fcard 4433ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/@material%2fcard set size:undefined disposed:false
+88 silly fetch manifest @material/banner@15.0.0-canary.7f224ddd4.0
+89 silly packumentCache full:https://registry.npmjs.org/@material%2fbanner cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/@material%2fshape 2232ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/@material%2fshape set size:undefined disposed:false
+92 silly fetch manifest @material/button@15.0.0-canary.7f224ddd4.0
+93 silly packumentCache full:https://registry.npmjs.org/@material%2fbutton cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/@material%2fmenu 5468ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/@material%2fmenu set size:undefined disposed:false
+96 silly fetch manifest @material/dialog@15.0.0-canary.7f224ddd4.0
+97 silly packumentCache full:https://registry.npmjs.org/@material%2fdialog cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/@material%2fbanner 2294ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/@material%2fbanner set size:undefined disposed:false
+100 silly fetch manifest @material/drawer@15.0.0-canary.7f224ddd4.0
+101 silly packumentCache full:https://registry.npmjs.org/@material%2fdrawer cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/@material%2fradio 3969ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/@material%2fradio set size:undefined disposed:false
+104 silly fetch manifest @material/ripple@15.0.0-canary.7f224ddd4.0
+105 silly packumentCache full:https://registry.npmjs.org/@material%2fripple cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/@material%2fchips 4254ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/@material%2fchips set size:undefined disposed:false
+108 silly fetch manifest @material/select@15.0.0-canary.7f224ddd4.0
+109 silly packumentCache full:https://registry.npmjs.org/@material%2fselect cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/@material%2ftheme 4317ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@material%2ftheme set size:undefined disposed:false
+112 silly fetch manifest @material/slider@15.0.0-canary.7f224ddd4.0
+113 silly packumentCache full:https://registry.npmjs.org/@material%2fslider cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/@material%2fbutton 3210ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/@material%2fbutton set size:undefined disposed:false
+116 silly fetch manifest @material/switch@15.0.0-canary.7f224ddd4.0
+117 silly packumentCache full:https://registry.npmjs.org/@material%2fswitch cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/@material%2fslider 2897ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/@material%2fslider set size:undefined disposed:false
+120 silly fetch manifest @material/density@15.0.0-canary.7f224ddd4.0
+121 silly packumentCache full:https://registry.npmjs.org/@material%2fdensity cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/@material%2fripple 5075ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/@material%2fripple set size:undefined disposed:false
+124 silly fetch manifest @material/tab-bar@15.0.0-canary.7f224ddd4.0
+125 silly packumentCache full:https://registry.npmjs.org/@material%2ftab-bar cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@material%2fswitch 3556ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/@material%2fswitch set size:undefined disposed:false
+128 silly fetch manifest @material/tooltip@15.0.0-canary.7f224ddd4.0
+129 silly packumentCache full:https://registry.npmjs.org/@material%2ftooltip cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/@material%2fdrawer 6591ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/@material%2fdrawer set size:undefined disposed:false
+132 silly fetch manifest @material/checkbox@15.0.0-canary.7f224ddd4.0
+133 silly packumentCache full:https://registry.npmjs.org/@material%2fcheckbox cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@material%2fdensity 3091ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@material%2fdensity set size:undefined disposed:false
+136 silly fetch manifest @material/snackbar@15.0.0-canary.7f224ddd4.0
+137 silly packumentCache full:https://registry.npmjs.org/@material%2fsnackbar cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/@material%2ftooltip 2934ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/@material%2ftooltip set size:undefined disposed:false
+140 silly fetch manifest @material/animation@15.0.0-canary.7f224ddd4.0
+141 silly packumentCache full:https://registry.npmjs.org/@material%2fanimation cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-bar 4803ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/@material%2ftab-bar set size:undefined disposed:false
+144 silly fetch manifest @material/auto-init@15.0.0-canary.7f224ddd4.0
+145 silly packumentCache full:https://registry.npmjs.org/@material%2fauto-init cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/@material%2fsnackbar 3887ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/@material%2fsnackbar set size:undefined disposed:false
+148 silly fetch manifest @material/elevation@15.0.0-canary.7f224ddd4.0
+149 silly packumentCache full:https://registry.npmjs.org/@material%2felevation cache-miss
+150 http fetch GET 200 https://registry.npmjs.org/@material%2fcheckbox 5854ms (cache miss)
+151 silly packumentCache full:https://registry.npmjs.org/@material%2fcheckbox set size:undefined disposed:false
+152 silly fetch manifest @material/textfield@15.0.0-canary.7f224ddd4.0
+153 silly packumentCache full:https://registry.npmjs.org/@material%2ftextfield cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/@material%2fauto-init 2688ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/@material%2fauto-init set size:undefined disposed:false
+156 silly fetch manifest @material/data-table@15.0.0-canary.7f224ddd4.0
+157 silly packumentCache full:https://registry.npmjs.org/@material%2fdata-table cache-miss
+158 http fetch GET 200 https://registry.npmjs.org/@material%2fanimation 4935ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/@material%2fanimation set size:undefined disposed:false
+160 silly fetch manifest @material/form-field@15.0.0-canary.7f224ddd4.0
+161 silly packumentCache full:https://registry.npmjs.org/@material%2fform-field cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/@material%2felevation 4262ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/@material%2felevation set size:undefined disposed:false
+164 silly fetch manifest @material/image-list@15.0.0-canary.7f224ddd4.0
+165 silly packumentCache full:https://registry.npmjs.org/@material%2fimage-list cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/@material%2fform-field 5634ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/@material%2fform-field set size:undefined disposed:false
+168 silly fetch manifest @material/typography@15.0.0-canary.7f224ddd4.0
+169 silly packumentCache full:https://registry.npmjs.org/@material%2ftypography cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/@material%2fimage-list 4730ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/@material%2fimage-list set size:undefined disposed:false
+172 silly fetch manifest @material/icon-button@15.0.0-canary.7f224ddd4.0
+173 silly packumentCache full:https://registry.npmjs.org/@material%2ficon-button cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/@material%2fdialog 21130ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/@material%2fdialog set size:undefined disposed:false
+176 silly fetch manifest @material/layout-grid@15.0.0-canary.7f224ddd4.0
+177 silly packumentCache full:https://registry.npmjs.org/@material%2flayout-grid cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/@material%2flist 27329ms (cache miss)
+179 silly packumentCache full:https://registry.npmjs.org/@material%2flist set size:undefined disposed:false
+180 silly fetch manifest @material/line-ripple@15.0.0-canary.7f224ddd4.0
+181 silly packumentCache full:https://registry.npmjs.org/@material%2fline-ripple cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/@material%2fselect 22303ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/@material%2fselect set size:undefined disposed:false
+184 silly fetch manifest @material/top-app-bar@15.0.0-canary.7f224ddd4.0
+185 silly packumentCache full:https://registry.npmjs.org/@material%2ftop-app-bar cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/@material%2ftypography 3868ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/@material%2ftypography set size:undefined disposed:false
+188 silly fetch manifest @material/menu-surface@15.0.0-canary.7f224ddd4.0
+189 silly packumentCache full:https://registry.npmjs.org/@material%2fmenu-surface cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/@material%2flayout-grid 4128ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/@material%2flayout-grid set size:undefined disposed:false
+192 silly fetch manifest @material/tab-scroller@15.0.0-canary.7f224ddd4.0
+193 silly packumentCache full:https://registry.npmjs.org/@material%2ftab-scroller cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/@material%2fline-ripple 4479ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/@material%2fline-ripple set size:undefined disposed:false
+196 silly fetch manifest @material/touch-target@15.0.0-canary.7f224ddd4.0
+197 silly packumentCache full:https://registry.npmjs.org/@material%2ftouch-target cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/@material%2fdata-table 12246ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/@material%2fdata-table set size:undefined disposed:false
+200 silly fetch manifest @material/tab-indicator@15.0.0-canary.7f224ddd4.0
+201 silly packumentCache full:https://registry.npmjs.org/@material%2ftab-indicator cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/@material%2ftop-app-bar 3442ms (cache miss)
+203 silly packumentCache full:https://registry.npmjs.org/@material%2ftop-app-bar set size:undefined disposed:false
+204 silly fetch manifest @material/floating-label@15.0.0-canary.7f224ddd4.0
+205 silly packumentCache full:https://registry.npmjs.org/@material%2ffloating-label cache-miss
+206 http fetch GET 200 https://registry.npmjs.org/@material%2fmenu-surface 3447ms (cache miss)
+207 silly packumentCache full:https://registry.npmjs.org/@material%2fmenu-surface set size:undefined disposed:false
+208 silly fetch manifest @material/linear-progress@15.0.0-canary.7f224ddd4.0
+209 silly packumentCache full:https://registry.npmjs.org/@material%2flinear-progress cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/@material%2ficon-button 6758ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/@material%2ficon-button set size:undefined disposed:false
+212 silly fetch manifest @material/notched-outline@15.0.0-canary.7f224ddd4.0
+213 silly packumentCache full:https://registry.npmjs.org/@material%2fnotched-outline cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/@material%2ftouch-target 1948ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/@material%2ftouch-target set size:undefined disposed:false
+216 silly fetch manifest @material/segmented-button@15.0.0-canary.7f224ddd4.0
+217 silly packumentCache full:https://registry.npmjs.org/@material%2fsegmented-button cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/@material%2ftextfield 16151ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/@material%2ftextfield set size:undefined disposed:false
+220 silly fetch manifest @material/circular-progress@15.0.0-canary.7f224ddd4.0
+221 silly packumentCache full:https://registry.npmjs.org/@material%2fcircular-progress cache-miss
+222 http fetch GET 200 https://registry.npmjs.org/@material%2fsegmented-button 1909ms (cache miss)
+223 silly packumentCache full:https://registry.npmjs.org/@material%2fsegmented-button set size:undefined disposed:false
+224 silly fetch manifest @material/feature-targeting@15.0.0-canary.7f224ddd4.0
+225 silly packumentCache full:https://registry.npmjs.org/@material%2ffeature-targeting cache-miss
+226 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-scroller 4500ms (cache miss)
+227 silly packumentCache full:https://registry.npmjs.org/@material%2ftab-scroller set size:undefined disposed:false
+228 http fetch GET 200 https://registry.npmjs.org/@material%2ffloating-label 3173ms (cache miss)
+229 silly packumentCache full:https://registry.npmjs.org/@material%2ffloating-label set size:undefined disposed:false
+230 http fetch GET 200 https://registry.npmjs.org/@material%2fnotched-outline 3271ms (cache miss)
+231 silly packumentCache full:https://registry.npmjs.org/@material%2fnotched-outline set size:undefined disposed:false
+232 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-indicator 5539ms (cache miss)
+233 silly packumentCache full:https://registry.npmjs.org/@material%2ftab-indicator set size:undefined disposed:false
+234 http fetch GET 200 https://registry.npmjs.org/@material%2fcircular-progress 2166ms (cache miss)
+235 silly packumentCache full:https://registry.npmjs.org/@material%2fcircular-progress set size:undefined disposed:false
+236 http fetch GET 200 https://registry.npmjs.org/@material%2flinear-progress 5193ms (cache miss)
+237 silly packumentCache full:https://registry.npmjs.org/@material%2flinear-progress set size:undefined disposed:false
+238 http fetch GET 200 https://registry.npmjs.org/@material%2ffeature-targeting 2854ms (cache miss)
+239 silly packumentCache full:https://registry.npmjs.org/@material%2ffeature-targeting set size:undefined disposed:false
+240 silly placeDep ROOT @material/animation@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+241 silly placeDep ROOT @material/auto-init@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+242 silly placeDep ROOT @material/banner@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+243 silly placeDep ROOT @material/base@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+244 silly placeDep ROOT @material/button@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+245 silly placeDep ROOT @material/card@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+246 silly placeDep ROOT @material/checkbox@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+247 silly placeDep ROOT @material/chips@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+248 silly placeDep ROOT @material/circular-progress@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+249 silly placeDep ROOT @material/data-table@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+250 silly placeDep ROOT @material/density@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+251 silly placeDep ROOT @material/dialog@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+252 silly placeDep ROOT @material/dom@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+253 silly placeDep ROOT @material/drawer@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+254 silly placeDep ROOT @material/elevation@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+255 silly placeDep ROOT @material/fab@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+256 silly placeDep ROOT @material/feature-targeting@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+257 silly placeDep ROOT @material/floating-label@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+258 silly placeDep ROOT @material/form-field@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+259 silly placeDep ROOT @material/icon-button@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+260 silly placeDep ROOT @material/image-list@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+261 silly placeDep ROOT @material/layout-grid@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+262 silly placeDep ROOT @material/line-ripple@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+263 silly placeDep ROOT @material/linear-progress@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+264 silly placeDep ROOT @material/list@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+265 silly placeDep ROOT @material/menu@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+266 silly placeDep ROOT @material/menu-surface@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+267 silly placeDep ROOT @material/notched-outline@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+268 silly placeDep ROOT @material/radio@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+269 silly placeDep ROOT @material/ripple@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+270 silly placeDep ROOT @material/rtl@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+271 silly placeDep ROOT @material/segmented-button@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+272 silly placeDep ROOT @material/select@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+273 silly placeDep ROOT @material/shape@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+274 silly placeDep ROOT @material/slider@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+275 silly placeDep ROOT @material/snackbar@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+276 silly placeDep ROOT @material/switch@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+277 silly placeDep ROOT @material/tab@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+278 silly placeDep ROOT @material/tab-bar@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+279 silly placeDep ROOT @material/tab-indicator@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+280 silly placeDep ROOT @material/tab-scroller@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+281 silly placeDep ROOT @material/textfield@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+282 silly placeDep ROOT @material/theme@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+283 silly placeDep ROOT @material/tooltip@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+284 silly placeDep ROOT @material/top-app-bar@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+285 silly placeDep ROOT @material/touch-target@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+286 silly placeDep ROOT @material/typography@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+287 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+288 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+289 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+290 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+291 silly fetch manifest @material/focus-ring@15.0.0-canary.7f224ddd4.0
+292 silly packumentCache full:https://registry.npmjs.org/@material%2ffocus-ring cache-miss
+293 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+294 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+295 silly fetch manifest @material/focus-ring@15.0.0-canary.7f224ddd4.0
+296 silly packumentCache full:https://registry.npmjs.org/@material%2ffocus-ring cache-miss
+297 silly fetch manifest safevalues@^0.3.4
+298 silly packumentCache full:https://registry.npmjs.org/safevalues cache-miss
+299 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+300 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+301 http fetch GET 200 https://registry.npmjs.org/safevalues 284ms (cache miss)
+302 silly packumentCache full:https://registry.npmjs.org/safevalues set size:undefined disposed:false
+303 silly fetch manifest @material/focus-ring@15.0.0-canary.7f224ddd4.0
+304 silly packumentCache full:https://registry.npmjs.org/@material%2ffocus-ring cache-miss
+305 http fetch GET 200 https://registry.npmjs.org/@material%2ffocus-ring 846ms (cache miss)
+306 silly packumentCache full:https://registry.npmjs.org/@material%2ffocus-ring set size:undefined disposed:false
+307 silly fetch manifest @material/progress-indicator@15.0.0-canary.7f224ddd4.0
+308 silly packumentCache full:https://registry.npmjs.org/@material%2fprogress-indicator cache-miss
+309 http fetch GET 200 https://registry.npmjs.org/@material%2ffocus-ring 578ms (cache miss)
+310 silly packumentCache full:https://registry.npmjs.org/@material%2ffocus-ring set size:undefined disposed:false
+311 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+312 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+313 http fetch GET 200 https://registry.npmjs.org/@material%2ffocus-ring 987ms (cache miss)
+314 silly packumentCache full:https://registry.npmjs.org/@material%2ffocus-ring set size:undefined disposed:false
+315 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+316 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+317 http fetch GET 200 https://registry.npmjs.org/@material%2fprogress-indicator 1029ms (cache miss)
+318 silly packumentCache full:https://registry.npmjs.org/@material%2fprogress-indicator set size:undefined disposed:false
+319 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+320 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens cache-miss
+321 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 591ms (cache miss)
+322 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+323 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 2568ms (cache miss)
+324 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+325 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 2717ms (cache miss)
+326 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+327 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 2818ms (cache miss)
+328 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+329 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 1854ms (cache miss)
+330 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+331 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 2956ms (cache miss)
+332 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+333 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 2166ms (cache miss)
+334 silly packumentCache full:https://registry.npmjs.org/@material%2ftokens set size:undefined disposed:false
+335 silly placeDep ROOT @material/tokens@15.0.0-canary.7f224ddd4.0 OK for: @material/banner@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+336 silly placeDep ROOT @material/focus-ring@15.0.0-canary.7f224ddd4.0 OK for: @material/button@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+337 silly placeDep ROOT safevalues@0.3.4 OK for: @material/chips@15.0.0-canary.7f224ddd4.0 want: ^0.3.4
+338 silly placeDep ROOT @material/progress-indicator@15.0.0-canary.7f224ddd4.0 OK for: @material/circular-progress@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+339 silly reify moves {}
+340 silly audit bulk request {
+340 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+340 silly audit   '@angular-devkit/architect': [ '0.1703.17' ],
+340 silly audit   rxjs: [ '7.8.1', '7.8.2' ],
+340 silly audit   '@angular-devkit/build-angular': [ '17.3.17' ],
+340 silly audit   tslib: [ '2.6.2', '2.8.1' ],
+340 silly audit   '@angular-devkit/build-webpack': [ '0.1703.17' ],
+340 silly audit   '@angular-devkit/core': [ '17.3.17' ],
+340 silly audit   '@angular-devkit/schematics': [ '17.3.17' ],
+340 silly audit   '@angular/animations': [ '17.3.12' ],
+340 silly audit   '@angular/cli': [ '17.3.17' ],
+340 silly audit   '@angular/common': [ '17.3.12' ],
+340 silly audit   '@angular/compiler': [ '17.3.12' ],
+340 silly audit   '@angular/compiler-cli': [ '17.3.12' ],
+340 silly audit   '@babel/core': [ '7.23.9', '7.26.10' ],
+340 silly audit   'convert-source-map': [ '2.0.0', '1.9.0' ],
+340 silly audit   semver: [ '6.3.1', '5.7.2', '7.6.0' ],
+340 silly audit   '@angular/core': [ '17.3.12' ],
+340 silly audit   '@angular/forms': [ '17.3.12' ],
+340 silly audit   '@angular/platform-browser': [ '17.3.12' ],
+340 silly audit   '@angular/platform-browser-dynamic': [ '17.3.12' ],
+340 silly audit   '@angular/router': [ '17.3.12' ],
+340 silly audit   '@babel/code-frame': [ '7.27.1' ],
+340 silly audit   '@babel/compat-data': [ '7.28.5' ],
+340 silly audit   '@babel/generator': [ '7.26.10', '7.28.5' ],
+340 silly audit   '@babel/helper-annotate-as-pure': [ '7.25.9', '7.27.3' ],
+340 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+340 silly audit   '@babel/helper-create-class-features-plugin': [ '7.28.5' ],
+340 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.28.5' ],
+340 silly audit   '@babel/helper-define-polyfill-provider': [ '0.6.5' ],
+340 silly audit   resolve: [ '1.22.11', '1.22.8' ],
+340 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+340 silly audit   '@babel/helper-member-expression-to-functions': [ '7.28.5' ],
+340 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+340 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+340 silly audit   '@babel/helper-optimise-call-expression': [ '7.27.1' ],
+340 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+340 silly audit   '@babel/helper-remap-async-to-generator': [ '7.27.1' ],
+340 silly audit   '@babel/helper-replace-supers': [ '7.27.1' ],
+340 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.27.1' ],
+340 silly audit   '@babel/helper-split-export-declaration': [ '7.24.7' ],
+340 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+340 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+340 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+340 silly audit   '@babel/helper-wrap-function': [ '7.28.3' ],
+340 silly audit   '@babel/helpers': [ '7.28.4' ],
+340 silly audit   '@babel/parser': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-bugfix-firefox-class-in-computed-class-key': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-bugfix-safari-class-field-initializer-scope': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly': [ '7.28.3' ],
+340 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.21.0-placeholder-for-preset-env.2' ],
+340 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-syntax-unicode-sets-regex': [ '7.18.6' ],
+340 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-async-generator-functions': [ '7.26.8' ],
+340 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.25.9' ],
+340 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-block-scoping': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-transform-class-properties': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-class-static-block': [ '7.28.3' ],
+340 silly audit   '@babel/plugin-transform-classes': [ '7.28.4' ],
+340 silly audit   '@babel/plugin-transform-computed-properties': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-destructuring': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-duplicate-named-capturing-groups-regex': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-dynamic-import': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-transform-export-namespace-from': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-for-of': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-function-name': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-json-strings': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-literals': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-modules-amd': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-transform-modules-umd': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-new-target': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-numeric-separator': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-object-rest-spread': [ '7.28.4' ],
+340 silly audit   '@babel/plugin-transform-object-super': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-optional-chaining': [ '7.28.5' ],
+340 silly audit   '@babel/plugin-transform-parameters': [ '7.27.7' ],
+340 silly audit   '@babel/plugin-transform-private-methods': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-private-property-in-object': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-property-literals': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-regenerator': [ '7.28.4' ],
+340 silly audit   '@babel/plugin-transform-regexp-modifiers': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-reserved-words': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-runtime': [ '7.26.10' ],
+340 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-spread': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-template-literals': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-unicode-property-regex': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.27.1' ],
+340 silly audit   '@babel/plugin-transform-unicode-sets-regex': [ '7.27.1' ],
+340 silly audit   '@babel/preset-env': [ '7.26.9' ],
+340 silly audit   '@babel/preset-modules': [ '0.1.6-no-external-plugins' ],
+340 silly audit   '@babel/runtime': [ '7.26.10' ],
+340 silly audit   '@babel/template': [ '7.27.2' ],
+340 silly audit   '@babel/traverse': [ '7.28.5' ],
+340 silly audit   '@babel/types': [ '7.28.5' ],
+340 silly audit   '@colors/colors': [ '1.5.0' ],
+340 silly audit   '@discoveryjs/json-ext': [ '0.5.7' ],
+340 silly audit   '@esbuild/aix-ppc64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/android-arm': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/android-arm64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/android-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/darwin-arm64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/darwin-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/freebsd-arm64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/freebsd-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-arm': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-arm64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-ia32': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-loong64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-mips64el': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-ppc64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-riscv64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-s390x': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/linux-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/netbsd-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/openbsd-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/sunos-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/win32-arm64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/win32-ia32': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@esbuild/win32-x64': [ '0.20.1', '0.21.5' ],
+340 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+340 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+340 silly audit   'ansi-styles': [ '6.2.3', '4.3.0' ],
+340 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+340 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+340 silly audit   'strip-ansi': [ '7.1.2', '6.0.1' ],
+340 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0', '6.2.0' ],
+340 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+340 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+340 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+340 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+340 silly audit   '@jridgewell/source-map': [ '0.3.11' ],
+340 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+340 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+340 silly audit   '@leichtgewicht/ip-codec': [ '2.0.5' ],
+340 silly audit   '@ljharb/through': [ '2.3.14' ],
+340 silly audit   '@ngtools/webpack': [ '17.3.17' ],
+340 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+340 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+340 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+340 silly audit   '@npmcli/agent': [ '2.2.2' ],
+340 silly audit   'lru-cache': [ '10.4.3', '5.1.1', '6.0.0' ],
+340 silly audit   '@npmcli/fs': [ '3.1.1' ],
+340 silly audit   '@npmcli/git': [ '5.0.8' ],
+340 silly audit   ini: [ '4.1.3', '4.1.2' ],
+340 silly audit   isexe: [ '3.1.1', '2.0.0' ],
+340 silly audit   'proc-log': [ '4.2.0', '3.0.0' ],
+340 silly audit   which: [ '4.0.0', '2.0.2', '1.3.1' ],
+340 silly audit   '@npmcli/installed-package-contents': [ '2.1.0' ],
+340 silly audit   '@npmcli/node-gyp': [ '3.0.0' ],
+340 silly audit   '@npmcli/package-json': [ '5.2.1' ],
+340 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+340 silly audit   glob: [ '10.5.0', '7.2.3' ],
+340 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+340 silly audit   '@npmcli/promise-spawn': [ '7.0.2' ],
+340 silly audit   '@npmcli/redact': [ '1.1.0' ],
+340 silly audit   '@npmcli/run-script': [ '7.0.4' ],
+340 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+340 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-android-arm64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-darwin-arm64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-darwin-x64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-freebsd-x64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-openbsd-x64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.55.1' ],
+340 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.55.1' ],
+340 silly audit   '@schematics/angular': [ '17.3.17' ],
+340 silly audit   '@sigstore/bundle': [ '2.3.2' ],
+340 silly audit   '@sigstore/core': [ '1.1.0' ],
+340 silly audit   '@sigstore/protobuf-specs': [ '0.3.3' ],
+340 silly audit   '@sigstore/sign': [ '2.3.2' ],
+340 silly audit   '@sigstore/tuf': [ '2.3.4' ],
+340 silly audit   '@sigstore/verify': [ '1.2.1' ],
+340 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+340 silly audit   '@tufjs/canonical-json': [ '2.0.0' ],
+340 silly audit   '@tufjs/models': [ '2.0.1' ],
+340 silly audit   '@types/body-parser': [ '1.19.6' ],
+340 silly audit   '@types/bonjour': [ '3.5.13' ],
+340 silly audit   '@types/connect': [ '3.4.38' ],
+340 silly audit   '@types/connect-history-api-fallback': [ '1.5.4' ],
+340 silly audit   '@types/cors': [ '2.8.19' ],
+340 silly audit   '@types/estree': [ '1.0.8' ],
+340 silly audit   '@types/express': [ '4.17.25' ],
+340 silly audit   '@types/express-serve-static-core': [ '5.1.0', '4.19.7' ],
+340 silly audit   '@types/http-errors': [ '2.0.5' ],
+340 silly audit   '@types/http-proxy': [ '1.17.17' ],
+340 silly audit   '@types/jasmine': [ '5.1.14' ],
+340 silly audit   '@types/json-schema': [ '7.0.15' ],
+340 silly audit   '@types/mime': [ '1.3.5' ],
+340 silly audit   '@types/node': [ '25.0.5' ],
+340 silly audit   '@types/node-forge': [ '1.3.14' ],
+340 silly audit   '@types/qs': [ '6.14.0' ],
+340 silly audit   '@types/range-parser': [ '1.2.7' ],
+340 silly audit   '@types/retry': [ '0.12.0' ],
+340 silly audit   '@types/send': [ '1.2.1', '0.17.6' ],
+340 silly audit   '@types/serve-index': [ '1.9.4' ],
+340 silly audit   '@types/serve-static': [ '1.15.10' ],
+340 silly audit   '@types/sockjs': [ '0.3.36' ],
+340 silly audit   '@types/ws': [ '8.18.1' ],
+340 silly audit   '@vitejs/plugin-basic-ssl': [ '1.1.0' ],
+340 silly audit   '@webassemblyjs/ast': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/helper-api-error': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/helper-buffer': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/helper-numbers': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/ieee754': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/leb128': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/utf8': [ '1.13.2' ],
+340 silly audit   '@webassemblyjs/wasm-edit': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/wasm-gen': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/wasm-opt': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/wasm-parser': [ '1.14.1' ],
+340 silly audit   '@webassemblyjs/wast-printer': [ '1.14.1' ],
+340 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+340 silly audit   '@xtuc/long': [ '4.2.2' ],
+340 silly audit   '@yarnpkg/lockfile': [ '1.1.0' ],
+340 silly audit   abbrev: [ '2.0.0' ],
+340 silly audit   accepts: [ '1.3.8' ],
+340 silly audit   negotiator: [ '0.6.3', '0.6.4' ],
+340 silly audit   acorn: [ '8.15.0' ],
+340 silly audit   'acorn-import-attributes': [ '1.9.5' ],
+340 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+340 silly audit   'loader-utils': [ '2.0.4', '3.2.1' ],
+340 silly audit   'agent-base': [ '7.1.4' ],
+340 silly audit   'aggregate-error': [ '3.1.0' ],
+340 silly audit   ajv: [ '8.12.0', '6.12.6' ],
+340 silly audit   'ajv-formats': [ '2.1.1' ],
+340 silly audit   'ajv-keywords': [ '5.1.0', '3.5.2' ],
+340 silly audit   'ansi-colors': [ '4.1.3' ],
+340 silly audit   'ansi-escapes': [ '4.3.2' ],
+340 silly audit   'ansi-html-community': [ '0.0.8' ],
+340 silly audit   anymatch: [ '3.1.3' ],
+340 silly audit   picomatch: [ '2.3.1', '4.0.1' ],
+340 silly audit   argparse: [ '1.0.10', '2.0.1' ],
+340 silly audit   'array-flatten': [ '1.1.1' ],
+340 silly audit   autoprefixer: [ '10.4.18' ],
+340 silly audit   'babel-loader': [ '9.1.3' ],
+340 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+340 silly audit   'babel-plugin-polyfill-corejs2': [ '0.4.14' ],
+340 silly audit   'babel-plugin-polyfill-corejs3': [ '0.11.1' ],
+340 silly audit   'babel-plugin-polyfill-regenerator': [ '0.6.5' ],
+340 silly audit   'balanced-match': [ '1.0.2' ],
+340 silly audit   'base64-js': [ '1.5.1' ],
+340 silly audit   base64id: [ '2.0.0' ],
+340 silly audit   'baseline-browser-mapping': [ '2.9.14' ],
+340 silly audit   batch: [ '0.6.1' ],
+340 silly audit   'big.js': [ '5.2.2' ],
+340 silly audit   'binary-extensions': [ '2.3.0' ],
+340 silly audit   bl: [ '4.1.0' ],
+340 silly audit   'body-parser': [ '1.20.4' ],
+340 silly audit   debug: [ '2.6.9', '4.4.3' ],
+340 silly audit   ms: [ '2.0.0', '2.1.3' ],
+340 silly audit   'bonjour-service': [ '1.3.0' ],
+340 silly audit   boolbase: [ '1.0.0' ],
+340 silly audit   braces: [ '3.0.3' ],
+340 silly audit   browserslist: [ '4.28.1' ],
+340 silly audit   buffer: [ '5.7.1' ],
+340 silly audit   'buffer-from': [ '1.1.2' ],
+340 silly audit   bytes: [ '3.1.2' ],
+340 silly audit   cacache: [ '18.0.4' ],
+340 silly audit   'call-bind': [ '1.0.8' ],
+340 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+340 silly audit   'call-bound': [ '1.0.4' ],
+340 silly audit   callsites: [ '3.1.0' ],
+340 silly audit   camelcase: [ '5.3.1' ],
+340 silly audit   'caniuse-lite': [ '1.0.30001763' ],
+340 silly audit   chalk: [ '4.1.2', '5.6.2' ],
+340 silly audit   chardet: [ '0.7.0' ],
+340 silly audit   chokidar: [ '3.6.0' ],
+340 silly audit   chownr: [ '2.0.0' ],
+340 silly audit   'chrome-trace-event': [ '1.0.4' ],
+340 silly audit   'clean-stack': [ '2.2.0' ],
+340 silly audit   'cli-cursor': [ '3.1.0' ],
+340 silly audit   'cli-spinners': [ '2.9.2' ],
+340 silly audit   'cli-width': [ '4.1.0' ],
+340 silly audit   cliui: [ '8.0.1', '7.0.4' ],
+340 silly audit   clone: [ '1.0.4' ],
+340 silly audit   'clone-deep': [ '4.0.1' ],
+340 silly audit   'color-convert': [ '2.0.1' ],
+340 silly audit   'color-name': [ '1.1.4' ],
+340 silly audit   colorette: [ '2.0.20' ],
+340 silly audit   commander: [ '2.20.3' ],
+340 silly audit   'common-path-prefix': [ '3.0.0' ],
+340 silly audit   compressible: [ '2.0.18' ],
+340 silly audit   compression: [ '1.8.1' ],
+340 silly audit   'concat-map': [ '0.0.1' ],
+340 silly audit   connect: [ '3.7.0' ],
+340 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+340 silly audit   'content-disposition': [ '0.5.4' ],
+340 silly audit   'content-type': [ '1.0.5' ],
+340 silly audit   cookie: [ '0.7.2' ],
+340 silly audit   'cookie-signature': [ '1.0.7' ],
+340 silly audit   'copy-anything': [ '2.0.6' ],
+340 silly audit   'copy-webpack-plugin': [ '11.0.0' ],
+340 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+340 silly audit   'core-js-compat': [ '3.47.0' ],
+340 silly audit   'core-util-is': [ '1.0.3' ],
+340 silly audit   cors: [ '2.8.5' ],
+340 silly audit   cosmiconfig: [ '9.0.0' ],
+340 silly audit   'js-yaml': [ '4.1.1', '3.14.2' ],
+340 silly audit   critters: [ '0.0.22' ],
+340 silly audit   'cross-spawn': [ '7.0.6' ],
+340 silly audit   'css-loader': [ '6.10.0' ],
+340 silly audit   'css-select': [ '5.2.2' ],
+340 silly audit   'css-what': [ '6.2.2' ],
+340 silly audit   cssesc: [ '3.0.0' ],
+340 silly audit   'custom-event': [ '1.0.1' ],
+340 silly audit   'date-format': [ '4.0.14' ],
+340 silly audit   'default-gateway': [ '6.0.3' ],
+340 silly audit   defaults: [ '1.0.4' ],
+340 silly audit   'define-data-property': [ '1.1.4' ],
+340 silly audit   'define-lazy-prop': [ '2.0.0' ],
+340 silly audit   depd: [ '2.0.0', '1.1.2' ],
+340 silly audit   destroy: [ '1.2.0' ],
+340 silly audit   'detect-node': [ '2.1.0' ],
+340 silly audit   di: [ '0.0.1' ],
+340 silly audit   'dir-glob': [ '3.0.1' ],
+340 silly audit   'dns-packet': [ '5.6.1' ],
+340 silly audit   'dom-serialize': [ '2.2.1' ],
+340 silly audit   'dom-serializer': [ '2.0.0' ],
+340 silly audit   domelementtype: [ '2.3.0' ],
+340 silly audit   domhandler: [ '5.0.3' ],
+340 silly audit   domutils: [ '3.2.2' ],
+340 silly audit   'dunder-proto': [ '1.0.1' ],
+340 silly audit   eastasianwidth: [ '0.2.0' ],
+340 silly audit   'ee-first': [ '1.1.1' ],
+340 silly audit   'electron-to-chromium': [ '1.5.267' ],
+340 silly audit   'emojis-list': [ '3.0.0' ],
+340 silly audit   encodeurl: [ '1.0.2', '2.0.0' ],
+340 silly audit   encoding: [ '0.1.13' ],
+340 silly audit   'iconv-lite': [ '0.6.3', '0.4.24' ],
+340 silly audit   'engine.io': [ '6.6.5' ],
+340 silly audit   'engine.io-parser': [ '5.2.3' ],
+340 silly audit   'enhanced-resolve': [ '5.18.4' ],
+340 silly audit   ent: [ '2.2.2' ],
+340 silly audit   entities: [ '4.5.0', '6.0.1' ],
+340 silly audit   'env-paths': [ '2.2.1' ],
+340 silly audit   'err-code': [ '2.0.3' ],
+340 silly audit   errno: [ '0.1.8' ],
+340 silly audit   'error-ex': [ '1.3.4' ],
+340 silly audit   'es-define-property': [ '1.0.1' ],
+340 silly audit   'es-errors': [ '1.3.0' ],
+340 silly audit   'es-module-lexer': [ '1.7.0' ],
+340 silly audit   'es-object-atoms': [ '1.1.1' ],
+340 silly audit   esbuild: [ '0.20.1', '0.21.5' ],
+340 silly audit   'esbuild-wasm': [ '0.20.1' ],
+340 silly audit   escalade: [ '3.2.0' ],
+340 silly audit   'escape-html': [ '1.0.3' ],
+340 silly audit   'escape-string-regexp': [ '1.0.5' ],
+340 silly audit   'eslint-scope': [ '5.1.1' ],
+340 silly audit   esprima: [ '4.0.1' ],
+340 silly audit   esrecurse: [ '4.3.0' ],
+340 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+340 silly audit   esutils: [ '2.0.3' ],
+340 silly audit   etag: [ '1.8.1' ],
+340 silly audit   eventemitter3: [ '4.0.7' ],
+340 silly audit   events: [ '3.3.0' ],
+340 silly audit   execa: [ '5.1.1' ],
+340 silly audit   'exponential-backoff': [ '3.1.3' ],
+340 silly audit   express: [ '4.22.1' ],
+340 silly audit   finalhandler: [ '1.3.2', '1.1.2' ],
+340 silly audit   statuses: [ '2.0.2', '1.5.0' ],
+340 silly audit   extend: [ '3.0.2' ],
+340 silly audit   'external-editor': [ '3.1.0' ],
+340 silly audit   'fast-deep-equal': [ '3.1.3' ],
+340 silly audit   'fast-glob': [ '3.3.2' ],
+340 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+340 silly audit   fastq: [ '1.20.1' ],
+340 silly audit   'faye-websocket': [ '0.11.4' ],
+340 silly audit   figures: [ '3.2.0' ],
+340 silly audit   'fill-range': [ '7.1.1' ],
+340 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+340 silly audit   'find-cache-dir': [ '4.0.0' ],
+340 silly audit   'find-up': [ '4.1.0', '6.3.0' ],
+340 silly audit   flat: [ '5.0.2' ],
+340 silly audit   flatted: [ '3.3.3' ],
+340 silly audit   'follow-redirects': [ '1.15.11' ],
+340 silly audit   'foreground-child': [ '3.3.1' ],
+340 silly audit   'signal-exit': [ '4.1.0', '3.0.7' ],
+340 silly audit   forwarded: [ '0.2.0' ],
+340 silly audit   'fraction.js': [ '4.3.7' ],
+340 silly audit   fresh: [ '0.5.2' ],
+340 silly audit   'fs-extra': [ '8.1.0' ],
+340 silly audit   'fs-minipass': [ '3.0.3', '2.1.0' ],
+340 silly audit   'fs-monkey': [ '1.1.0' ],
+340 silly audit   'fs.realpath': [ '1.0.0' ],
+340 silly audit   fsevents: [ '2.3.3' ],
+340 silly audit   'function-bind': [ '1.1.2' ],
+340 silly audit   gensync: [ '1.0.0-beta.2' ],
+340 silly audit   'get-caller-file': [ '2.0.5' ],
+340 silly audit   'get-intrinsic': [ '1.3.0' ],
+340 silly audit   'get-package-type': [ '0.1.0' ],
+340 silly audit   'get-proto': [ '1.0.1' ],
+340 silly audit   'get-stream': [ '6.0.1' ],
+340 silly audit   'glob-to-regexp': [ '0.4.1' ],
+340 silly audit   globby: [ '13.2.2' ],
+340 silly audit   gopd: [ '1.2.0' ],
+340 silly audit   'graceful-fs': [ '4.2.11' ],
+340 silly audit   'handle-thing': [ '2.0.1' ],
+340 silly audit   'has-flag': [ '4.0.0' ],
+340 silly audit   'has-property-descriptors': [ '1.0.2' ],
+340 silly audit   'has-symbols': [ '1.1.0' ],
+340 silly audit   'has-tostringtag': [ '1.0.2' ],
+340 silly audit   hasown: [ '2.0.2' ],
+340 silly audit   'hosted-git-info': [ '7.0.2' ],
+340 silly audit   'hpack.js': [ '2.1.6' ],
+340 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+340 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+340 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+340 silly audit   'html-entities': [ '2.6.0' ],
+340 silly audit   'html-escaper': [ '2.0.2' ],
+340 silly audit   htmlparser2: [ '8.0.2' ],
+340 silly audit   'http-cache-semantics': [ '4.2.0' ],
+340 silly audit   'http-deceiver': [ '1.2.7' ],
+340 silly audit   'http-errors': [ '2.0.1', '1.6.3' ],
+340 silly audit   'http-parser-js': [ '0.5.10' ],
+340 silly audit   'http-proxy': [ '1.18.1' ],
+340 silly audit   'http-proxy-agent': [ '7.0.2' ],
+340 silly audit   'http-proxy-middleware': [ '2.0.8' ],
+340 silly audit   'https-proxy-agent': [ '7.0.4' ],
+340 silly audit   'human-signals': [ '2.1.0' ],
+340 silly audit   'icss-utils': [ '5.1.0' ],
+340 silly audit   ieee754: [ '1.2.1' ],
+340 silly audit   ignore: [ '5.3.2' ],
+340 silly audit   'ignore-walk': [ '6.0.5' ],
+340 silly audit   'image-size': [ '0.5.5' ],
+340 silly audit   immutable: [ '4.3.7' ],
+340 silly audit   'import-fresh': [ '3.3.1' ],
+340 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+340 silly audit   imurmurhash: [ '0.1.4' ],
+340 silly audit   'indent-string': [ '4.0.0' ],
+340 silly audit   inflight: [ '1.0.6' ],
+340 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+340 silly audit   inquirer: [ '9.2.15' ],
+340 silly audit   'ip-address': [ '10.1.0' ],
+340 silly audit   'ipaddr.js': [ '2.3.0', '1.9.1' ],
+340 silly audit   'is-arrayish': [ '0.2.1' ],
+340 silly audit   'is-binary-path': [ '2.1.0' ],
+340 silly audit   'is-core-module': [ '2.16.1' ],
+340 silly audit   'is-docker': [ '2.2.1' ],
+340 silly audit   'is-extglob': [ '2.1.1' ],
+340 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+340 silly audit   'is-glob': [ '4.0.3' ],
+340 silly audit   'is-interactive': [ '1.0.0' ],
+340 silly audit   'is-lambda': [ '1.0.1' ],
+340 silly audit   'is-number': [ '7.0.0' ],
+340 silly audit   'is-plain-obj': [ '3.0.0' ],
+340 silly audit   'is-plain-object': [ '2.0.4' ],
+340 silly audit   'is-regex': [ '1.2.1' ],
+340 silly audit   'is-stream': [ '2.0.1' ],
+340 silly audit   'is-unicode-supported': [ '0.1.0' ],
+340 silly audit   'is-what': [ '3.14.1' ],
+340 silly audit   'is-wsl': [ '2.2.0' ],
+340 silly audit   isarray: [ '1.0.0' ],
+340 silly audit   isbinaryfile: [ '4.0.10' ],
+340 silly audit   isobject: [ '3.0.1' ],
+340 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+340 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+340 silly audit   'istanbul-lib-report': [ '3.0.1' ],
+340 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+340 silly audit   'source-map': [ '0.6.1', '0.7.4' ],
+340 silly audit   'istanbul-reports': [ '3.2.0' ],
+340 silly audit   jackspeak: [ '3.4.3' ],
+340 silly audit   'jasmine-core': [ '5.1.2', '4.6.1' ],
+340 silly audit   'jest-worker': [ '27.5.1' ],
+340 silly audit   'supports-color': [ '8.1.1', '7.2.0' ],
+340 silly audit   jiti: [ '1.21.7' ],
+340 silly audit   'js-tokens': [ '4.0.0' ],
+340 silly audit   jsesc: [ '3.1.0' ],
+340 silly audit   'json-parse-even-better-errors': [ '3.0.2', '2.3.1' ],
+340 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+340 silly audit   json5: [ '2.2.3' ],
+340 silly audit   'jsonc-parser': [ '3.2.1' ],
+340 silly audit   jsonfile: [ '4.0.0' ],
+340 silly audit   jsonparse: [ '1.3.1' ],
+340 silly audit   karma: [ '6.4.4' ],
+340 silly audit   'karma-chrome-launcher': [ '3.2.0' ],
+340 silly audit   'karma-coverage': [ '2.2.1' ],
+340 silly audit   'karma-jasmine': [ '5.1.0' ],
+340 silly audit   'karma-jasmine-html-reporter': [ '2.1.0' ],
+340 silly audit   'karma-source-map-support': [ '1.4.0' ],
+340 silly audit   tmp: [ '0.2.5', '0.0.33' ],
+340 silly audit   yargs: [ '16.2.0', '17.7.2' ],
+340 silly audit   'yargs-parser': [ '20.2.9', '21.1.1' ],
+340 silly audit   'kind-of': [ '6.0.3' ],
+340 silly audit   klona: [ '2.0.6' ],
+340 silly audit   'launch-editor': [ '2.12.0' ],
+340 silly audit   less: [ '4.2.0' ],
+340 silly audit   'less-loader': [ '11.1.0' ],
+340 silly audit   'make-dir': [ '2.1.0', '4.0.0' ],
+340 silly audit   mime: [ '1.6.0', '2.6.0' ],
+340 silly audit   'license-webpack-plugin': [ '4.0.2' ],
+340 silly audit   'lines-and-columns': [ '1.2.4' ],
+340 silly audit   'loader-runner': [ '4.3.1' ],
+340 silly audit   'locate-path': [ '5.0.0', '7.2.0' ],
+340 silly audit   lodash: [ '4.17.21' ],
+340 silly audit   'lodash.debounce': [ '4.0.8' ],
+340 silly audit   'log-symbols': [ '4.1.0' ],
+340 silly audit   log4js: [ '6.9.1' ],
+340 silly audit   'magic-string': [ '0.30.8' ],
+340 silly audit   'make-fetch-happen': [ '13.0.1' ],
+340 silly audit   'math-intrinsics': [ '1.1.0' ],
+340 silly audit   'media-typer': [ '0.3.0' ],
+340 silly audit   memfs: [ '3.5.3' ],
+340 silly audit   'merge-descriptors': [ '1.0.3' ],
+340 silly audit   'merge-stream': [ '2.0.0' ],
+340 silly audit   merge2: [ '1.4.1' ],
+340 silly audit   methods: [ '1.1.2' ],
+340 silly audit   micromatch: [ '4.0.8' ],
+340 silly audit   'mime-db': [ '1.52.0' ],
+340 silly audit   'mime-types': [ '2.1.35' ],
+340 silly audit   'mimic-fn': [ '2.1.0' ],
+340 silly audit   'mini-css-extract-plugin': [ '2.8.1' ],
+340 silly audit   'minimalistic-assert': [ '1.0.1' ],
+340 silly audit   minimist: [ '1.2.8' ],
+340 silly audit   minipass: [ '7.1.2', '3.3.6', '5.0.0' ],
+340 silly audit   'minipass-collect': [ '2.0.1' ],
+340 silly audit   'minipass-fetch': [ '3.0.5' ],
+340 silly audit   'minipass-flush': [ '1.0.5' ],
+340 silly audit   yallist: [ '4.0.0', '3.1.1' ],
+340 silly audit   'minipass-json-stream': [ '1.0.2' ],
+340 silly audit   'minipass-pipeline': [ '1.2.4' ],
+340 silly audit   'minipass-sized': [ '1.0.3' ],
+340 silly audit   minizlib: [ '2.1.2' ],
+340 silly audit   mkdirp: [ '0.5.6', '1.0.4' ],
+340 silly audit   mrmime: [ '2.0.0' ],
+340 silly audit   'multicast-dns': [ '7.2.5' ],
+340 silly audit   'mute-stream': [ '1.0.0' ],
+340 silly audit   nanoid: [ '3.3.11' ],
+340 silly audit   needle: [ '3.3.1' ],
+340 silly audit   'neo-async': [ '2.6.2' ],
+340 silly audit   'nice-napi': [ '1.0.2' ],
+340 silly audit   'node-addon-api': [ '3.2.1' ],
+340 silly audit   'node-forge': [ '1.3.3' ],
+340 silly audit   'node-gyp': [ '10.3.1' ],
+340 silly audit   'node-gyp-build': [ '4.8.4' ],
+340 silly audit   'node-releases': [ '2.0.27' ],
+340 silly audit   nopt: [ '7.2.1' ],
+340 silly audit   'normalize-package-data': [ '6.0.2' ],
+340 silly audit   'normalize-path': [ '3.0.0' ],
+340 silly audit   'normalize-range': [ '0.1.2' ],
+340 silly audit   'npm-bundled': [ '3.0.1' ],
+340 silly audit   'npm-install-checks': [ '6.3.0' ],
+340 silly audit   'npm-normalize-package-bin': [ '3.0.1' ],
+340 silly audit   'npm-package-arg': [ '11.0.1' ],
+340 silly audit   'npm-packlist': [ '8.0.2' ],
+340 silly audit   'npm-pick-manifest': [ '9.0.0' ],
+340 silly audit   'npm-registry-fetch': [ '16.2.1' ],
+340 silly audit   'npm-run-path': [ '4.0.1' ],
+340 silly audit   'nth-check': [ '2.1.1' ],
+340 silly audit   'object-assign': [ '4.1.1' ],
+340 silly audit   'object-inspect': [ '1.13.4' ],
+340 silly audit   obuf: [ '1.1.2' ],
+340 silly audit   'on-headers': [ '1.1.0' ],
+340 silly audit   once: [ '1.4.0' ],
+340 silly audit   onetime: [ '5.1.2' ],
+340 silly audit   open: [ '8.4.2' ],
+340 silly audit   ora: [ '5.4.1' ],
+340 silly audit   'os-tmpdir': [ '1.0.2' ],
+340 silly audit   'p-limit': [ '2.3.0', '4.0.0' ],
+340 silly audit   'p-locate': [ '4.1.0', '6.0.0' ],
+340 silly audit   'p-map': [ '4.0.0' ],
+340 silly audit   'p-retry': [ '4.6.2' ],
+340 silly audit   retry: [ '0.13.1', '0.12.0' ],
+340 silly audit   'p-try': [ '2.2.0' ],
+340 silly audit   'package-json-from-dist': [ '1.0.1' ],
+340 silly audit   pacote: [ '17.0.6' ],
+340 silly audit   'parent-module': [ '1.0.1' ],
+340 silly audit   'parse-json': [ '5.2.0' ],
+340 silly audit   'parse-node-version': [ '1.0.1' ],
+340 silly audit   parse5: [ '7.3.0' ],
+340 silly audit   'parse5-html-rewriting-stream': [ '7.0.0' ],
+340 silly audit   'parse5-sax-parser': [ '7.0.0' ],
+340 silly audit   parseurl: [ '1.3.3' ],
+340 silly audit   'path-exists': [ '4.0.0', '5.0.0' ],
+340 silly audit   'path-is-absolute': [ '1.0.1' ],
+340 silly audit   'path-key': [ '3.1.1' ],
+340 silly audit   'path-parse': [ '1.0.7' ],
+340 silly audit   'path-scurry': [ '1.11.1' ],
+340 silly audit   'path-to-regexp': [ '0.1.12' ],
+340 silly audit   'path-type': [ '4.0.0' ],
+340 silly audit   picocolors: [ '1.1.1' ],
+340 silly audit   pify: [ '4.0.1' ],
+340 silly audit   piscina: [ '4.4.0' ],
+340 silly audit   'pkg-dir': [ '7.0.0' ],
+340 silly audit   postcss: [ '8.4.35', '8.5.6' ],
+340 silly audit   'postcss-loader': [ '8.1.1' ],
+340 silly audit   'postcss-media-query-parser': [ '0.2.3' ],
+340 silly audit   'postcss-modules-extract-imports': [ '3.1.0' ],
+340 silly audit   'postcss-modules-local-by-default': [ '4.2.0' ],
+340 silly audit   'postcss-modules-scope': [ '3.2.1' ],
+340 silly audit   'postcss-modules-values': [ '4.0.0' ],
+340 silly audit   'postcss-selector-parser': [ '7.1.1' ],
+340 silly audit   'postcss-value-parser': [ '4.2.0' ],
+340 silly audit   'process-nextick-args': [ '2.0.1' ],
+340 silly audit   'promise-inflight': [ '1.0.1' ],
+340 silly audit   'promise-retry': [ '2.0.1' ],
+340 silly audit   'proxy-addr': [ '2.0.7' ],
+340 silly audit   prr: [ '1.0.1' ],
+340 silly audit   punycode: [ '1.4.1', '2.3.1' ],
+340 silly audit   qjobs: [ '1.2.0' ],
+340 silly audit   qs: [ '6.14.1' ],
+340 silly audit   'queue-microtask': [ '1.2.3' ],
+340 silly audit   randombytes: [ '2.1.0' ],
+340 silly audit   'range-parser': [ '1.2.1' ],
+340 silly audit   'raw-body': [ '2.5.3' ],
+340 silly audit   'read-package-json': [ '7.0.1' ],
+340 silly audit   'read-package-json-fast': [ '3.0.2' ],
+340 silly audit   readdirp: [ '3.6.0' ],
+340 silly audit   'reflect-metadata': [ '0.2.2' ],
+340 silly audit   regenerate: [ '1.4.2' ],
+340 silly audit   'regenerate-unicode-properties': [ '10.2.2' ],
+340 silly audit   'regenerator-runtime': [ '0.14.1' ],
+340 silly audit   'regex-parser': [ '2.3.1' ],
+340 silly audit   'regexpu-core': [ '6.4.0' ],
+340 silly audit   regjsgen: [ '0.8.0' ],
+340 silly audit   regjsparser: [ '0.13.0' ],
+340 silly audit   'require-directory': [ '2.1.1' ],
+340 silly audit   'require-from-string': [ '2.0.2' ],
+340 silly audit   'requires-port': [ '1.0.0' ],
+340 silly audit   'resolve-url-loader': [ '5.0.0' ],
+340 silly audit   'restore-cursor': [ '3.1.0' ],
+340 silly audit   reusify: [ '1.1.0' ],
+340 silly audit   rfdc: [ '1.4.1' ],
+340 silly audit   rimraf: [ '3.0.2' ],
+340 silly audit   rollup: [ '4.55.1' ],
+340 silly audit   'run-async': [ '3.0.0' ],
+340 silly audit   'run-parallel': [ '1.2.0' ],
+340 silly audit   'safe-regex-test': [ '1.1.0' ],
+340 silly audit   'safer-buffer': [ '2.1.2' ],
+340 silly audit   sass: [ '1.71.1' ],
+340 silly audit   'sass-loader': [ '14.1.1' ],
+340 silly audit   sax: [ '1.4.4' ],
+340 silly audit   'schema-utils': [ '4.3.3', '3.3.0' ],
+340 silly audit   'select-hose': [ '2.0.0' ],
+340 silly audit   selfsigned: [ '2.4.1' ],
+340 silly audit   send: [ '0.19.2' ],
+340 silly audit   'serialize-javascript': [ '6.0.2' ],
+340 silly audit   'serve-index': [ '1.9.1' ],
+340 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+340 silly audit   'serve-static': [ '1.16.3' ],
+340 silly audit   'set-function-length': [ '1.2.2' ],
+340 silly audit   'shallow-clone': [ '3.0.1' ],
+340 silly audit   'shebang-command': [ '2.0.0' ],
+340 silly audit   'shebang-regex': [ '3.0.0' ],
+340 silly audit   'shell-quote': [ '1.8.3' ],
+340 silly audit   'side-channel': [ '1.1.0' ],
+340 silly audit   'side-channel-list': [ '1.0.0' ],
+340 silly audit   'side-channel-map': [ '1.0.1' ],
+340 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+340 silly audit   sigstore: [ '2.3.1' ],
+340 silly audit   slash: [ '4.0.0' ],
+340 silly audit   'smart-buffer': [ '4.2.0' ],
+340 silly audit   'socket.io': [ '4.8.3' ],
+340 silly audit   'socket.io-adapter': [ '2.5.6' ],
+340 silly audit   'socket.io-parser': [ '4.2.5' ],
+340 silly audit   sockjs: [ '0.3.24' ],
+340 silly audit   socks: [ '2.8.7' ],
+340 silly audit   'socks-proxy-agent': [ '8.0.5' ],
+340 silly audit   'source-map-js': [ '1.2.1' ],
+340 silly audit   'source-map-loader': [ '5.0.0' ],
+340 silly audit   'source-map-support': [ '0.5.21' ],
+340 silly audit   'spdx-correct': [ '3.2.0' ],
+340 silly audit   'spdx-exceptions': [ '2.5.0' ],
+340 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+340 silly audit   'spdx-license-ids': [ '3.0.22' ],
+340 silly audit   spdy: [ '4.0.2' ],
+340 silly audit   'spdy-transport': [ '3.0.0' ],
+340 silly audit   'sprintf-js': [ '1.0.3' ],
+340 silly audit   ssri: [ '10.0.6' ],
+340 silly audit   streamroller: [ '3.1.5' ],
+340 silly audit   'strip-final-newline': [ '2.0.0' ],
+340 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+340 silly audit   'symbol-observable': [ '4.0.0' ],
+340 silly audit   tapable: [ '2.3.0' ],
+340 silly audit   tar: [ '6.2.1' ],
+340 silly audit   terser: [ '5.29.1', '5.44.1' ],
+340 silly audit   'terser-webpack-plugin': [ '5.3.16' ],
+340 silly audit   'test-exclude': [ '6.0.0' ],
+340 silly audit   thunky: [ '1.1.0' ],
+340 silly audit   'to-regex-range': [ '5.0.1' ],
+340 silly audit   toidentifier: [ '1.0.1' ],
+340 silly audit   'tree-kill': [ '1.2.2' ],
+340 silly audit   'tuf-js': [ '2.2.1' ],
+340 silly audit   'type-fest': [ '0.21.3' ],
+340 silly audit   'type-is': [ '1.6.18' ],
+340 silly audit   'typed-assert': [ '1.0.9' ],
+340 silly audit   typescript: [ '5.4.5' ],
+340 silly audit   'ua-parser-js': [ '0.7.41' ],
+340 silly audit   'undici-types': [ '7.16.0' ],
+340 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.1' ],
+340 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+340 silly audit   'unicode-match-property-value-ecmascript': [ '2.2.1' ],
+340 silly audit   'unicode-property-aliases-ecmascript': [ '2.2.0' ],
+340 silly audit   'unique-filename': [ '3.0.0' ],
+340 silly audit   'unique-slug': [ '4.0.0' ],
+340 silly audit   universalify: [ '0.1.2' ],
+340 silly audit   unpipe: [ '1.0.0' ],
+340 silly audit   'update-browserslist-db': [ '1.2.3' ],
+340 silly audit   'uri-js': [ '4.4.1' ],
+340 silly audit   'util-deprecate': [ '1.0.2' ],
+340 silly audit   'utils-merge': [ '1.0.1' ],
+340 silly audit   uuid: [ '8.3.2' ],
+340 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+340 silly audit   'validate-npm-package-name': [ '5.0.1' ],
+340 silly audit   vary: [ '1.1.2' ],
+340 silly audit   vite: [ '5.4.21' ],
+340 silly audit   'void-elements': [ '2.0.1' ],
+340 silly audit   watchpack: [ '2.4.0', '2.5.0' ],
+340 silly audit   wbuf: [ '1.7.3' ],
+340 silly audit   wcwidth: [ '1.0.1' ],
+340 silly audit   webpack: [ '5.94.0' ],
+340 silly audit   'webpack-dev-middleware': [ '6.1.2', '5.3.4' ],
+340 silly audit   'webpack-dev-server': [ '4.15.1' ],
+340 silly audit   'webpack-merge': [ '5.10.0' ],
+340 silly audit   'webpack-sources': [ '3.3.3' ],
+340 silly audit   'webpack-subresource-integrity': [ '5.1.0' ],
+340 silly audit   'websocket-driver': [ '0.7.4' ],
+340 silly audit   'websocket-extensions': [ '0.1.4' ],
+340 silly audit   wildcard: [ '2.0.1' ],
+340 silly audit   wrappy: [ '1.0.2' ],
+340 silly audit   ws: [ '8.18.3' ],
+340 silly audit   y18n: [ '5.0.8' ],
+340 silly audit   'yocto-queue': [ '1.2.2' ],
+340 silly audit   'zone.js': [ '0.14.10' ],
+340 silly audit   '@angular/cdk': [ '17.3.10' ],
+340 silly audit   '@angular/material': [ '17.3.10' ],
+340 silly audit   '@material/animation': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/auto-init': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/banner': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/base': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/button': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/card': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/checkbox': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/chips': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/circular-progress': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/data-table': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/density': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/dialog': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/dom': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/drawer': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/elevation': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/fab': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/feature-targeting': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/floating-label': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/form-field': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/icon-button': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/image-list': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/layout-grid': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/line-ripple': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/linear-progress': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/list': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/menu': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/menu-surface': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/notched-outline': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/radio': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/ripple': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/rtl': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/segmented-button': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/select': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/shape': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/slider': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/snackbar': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/switch': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/tab': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/tab-bar': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/tab-indicator': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/tab-scroller': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/textfield': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/theme': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/tooltip': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/top-app-bar': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/touch-target': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/typography': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/tokens': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   '@material/focus-ring': [ '15.0.0-canary.7f224ddd4.0' ],
+340 silly audit   safevalues: [ '0.3.4' ],
+340 silly audit   '@material/progress-indicator': [ '15.0.0-canary.7f224ddd4.0' ]
+340 silly audit }
+341 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-x64-msvc
+342 silly reify mark deleted [
+342 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-x64-msvc'
+342 silly reify ]
+343 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-x64-gnu
+344 silly reify mark deleted [
+344 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-x64-gnu'
+344 silly reify ]
+345 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-ia32-msvc
+346 silly reify mark deleted [
+346 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-ia32-msvc'
+346 silly reify ]
+347 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-arm64-msvc
+348 silly reify mark deleted [
+348 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-win32-arm64-msvc'
+348 silly reify ]
+349 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-openharmony-arm64
+350 silly reify mark deleted [
+350 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-openharmony-arm64'
+350 silly reify ]
+351 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-openbsd-x64
+352 silly reify mark deleted [
+352 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-openbsd-x64'
+352 silly reify ]
+353 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-x64-musl
+354 silly reify mark deleted [
+354 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-x64-musl'
+354 silly reify ]
+355 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-x64-gnu
+356 silly reify mark deleted [
+356 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-x64-gnu'
+356 silly reify ]
+357 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-s390x-gnu
+358 silly reify mark deleted [
+358 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-s390x-gnu'
+358 silly reify ]
+359 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-riscv64-musl
+360 silly reify mark deleted [
+360 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-riscv64-musl'
+360 silly reify ]
+361 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-riscv64-gnu
+362 silly reify mark deleted [
+362 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-riscv64-gnu'
+362 silly reify ]
+363 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-ppc64-musl
+364 silly reify mark deleted [
+364 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-ppc64-musl'
+364 silly reify ]
+365 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-ppc64-gnu
+366 silly reify mark deleted [
+366 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-ppc64-gnu'
+366 silly reify ]
+367 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-loong64-musl
+368 silly reify mark deleted [
+368 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-loong64-musl'
+368 silly reify ]
+369 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-loong64-gnu
+370 silly reify mark deleted [
+370 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-loong64-gnu'
+370 silly reify ]
+371 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm64-musl
+372 silly reify mark deleted [
+372 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm64-musl'
+372 silly reify ]
+373 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm64-gnu
+374 silly reify mark deleted [
+374 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm64-gnu'
+374 silly reify ]
+375 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm-musleabihf
+376 silly reify mark deleted [
+376 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm-musleabihf'
+376 silly reify ]
+377 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm-gnueabihf
+378 silly reify mark deleted [
+378 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+378 silly reify ]
+379 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-freebsd-x64
+380 silly reify mark deleted [
+380 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-freebsd-x64'
+380 silly reify ]
+381 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-freebsd-arm64
+382 silly reify mark deleted [
+382 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-freebsd-arm64'
+382 silly reify ]
+383 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-darwin-x64
+384 silly reify mark deleted [
+384 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-darwin-x64'
+384 silly reify ]
+385 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-android-arm64
+386 silly reify mark deleted [
+386 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-android-arm64'
+386 silly reify ]
+387 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-android-arm-eabi
+388 silly reify mark deleted [
+388 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@rollup/rollup-android-arm-eabi'
+388 silly reify ]
+389 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/win32-x64
+390 silly reify mark deleted [
+390 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/win32-x64'
+390 silly reify ]
+391 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/win32-ia32
+392 silly reify mark deleted [
+392 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/win32-ia32'
+392 silly reify ]
+393 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/win32-arm64
+394 silly reify mark deleted [
+394 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/win32-arm64'
+394 silly reify ]
+395 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/sunos-x64
+396 silly reify mark deleted [
+396 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/sunos-x64'
+396 silly reify ]
+397 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/openbsd-x64
+398 silly reify mark deleted [
+398 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/openbsd-x64'
+398 silly reify ]
+399 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/netbsd-x64
+400 silly reify mark deleted [
+400 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/netbsd-x64'
+400 silly reify ]
+401 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-x64
+402 silly reify mark deleted [
+402 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-x64'
+402 silly reify ]
+403 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-s390x
+404 silly reify mark deleted [
+404 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-s390x'
+404 silly reify ]
+405 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-riscv64
+406 silly reify mark deleted [
+406 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-riscv64'
+406 silly reify ]
+407 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-ppc64
+408 silly reify mark deleted [
+408 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-ppc64'
+408 silly reify ]
+409 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-mips64el
+410 silly reify mark deleted [
+410 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-mips64el'
+410 silly reify ]
+411 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-loong64
+412 silly reify mark deleted [
+412 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-loong64'
+412 silly reify ]
+413 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-ia32
+414 silly reify mark deleted [
+414 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-ia32'
+414 silly reify ]
+415 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-arm64
+416 silly reify mark deleted [
+416 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-arm64'
+416 silly reify ]
+417 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-arm
+418 silly reify mark deleted [
+418 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/linux-arm'
+418 silly reify ]
+419 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/freebsd-x64
+420 silly reify mark deleted [
+420 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/freebsd-x64'
+420 silly reify ]
+421 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/freebsd-arm64
+422 silly reify mark deleted [
+422 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/freebsd-arm64'
+422 silly reify ]
+423 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/darwin-x64
+424 silly reify mark deleted [
+424 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/darwin-x64'
+424 silly reify ]
+425 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/android-x64
+426 silly reify mark deleted [
+426 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/android-x64'
+426 silly reify ]
+427 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/android-arm64
+428 silly reify mark deleted [
+428 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/android-arm64'
+428 silly reify ]
+429 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/android-arm
+430 silly reify mark deleted [
+430 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/android-arm'
+430 silly reify ]
+431 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/aix-ppc64
+432 silly reify mark deleted [
+432 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/@esbuild/aix-ppc64'
+432 silly reify ]
+433 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/win32-x64
+434 silly reify mark deleted [
+434 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/win32-x64'
+434 silly reify ]
+435 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/win32-ia32
+436 silly reify mark deleted [
+436 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/win32-ia32'
+436 silly reify ]
+437 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/win32-arm64
+438 silly reify mark deleted [
+438 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/win32-arm64'
+438 silly reify ]
+439 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/sunos-x64
+440 silly reify mark deleted [
+440 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/sunos-x64'
+440 silly reify ]
+441 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/openbsd-x64
+442 silly reify mark deleted [
+442 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/openbsd-x64'
+442 silly reify ]
+443 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/netbsd-x64
+444 silly reify mark deleted [
+444 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/netbsd-x64'
+444 silly reify ]
+445 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-x64
+446 silly reify mark deleted [
+446 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-x64'
+446 silly reify ]
+447 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-s390x
+448 silly reify mark deleted [
+448 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-s390x'
+448 silly reify ]
+449 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-riscv64
+450 silly reify mark deleted [
+450 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-riscv64'
+450 silly reify ]
+451 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-ppc64
+452 silly reify mark deleted [
+452 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-ppc64'
+452 silly reify ]
+453 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-mips64el
+454 silly reify mark deleted [
+454 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-mips64el'
+454 silly reify ]
+455 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-loong64
+456 silly reify mark deleted [
+456 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-loong64'
+456 silly reify ]
+457 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-ia32
+458 silly reify mark deleted [
+458 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-ia32'
+458 silly reify ]
+459 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-arm64
+460 silly reify mark deleted [
+460 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-arm64'
+460 silly reify ]
+461 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-arm
+462 silly reify mark deleted [
+462 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/linux-arm'
+462 silly reify ]
+463 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/freebsd-x64
+464 silly reify mark deleted [
+464 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/freebsd-x64'
+464 silly reify ]
+465 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/freebsd-arm64
+466 silly reify mark deleted [
+466 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/freebsd-arm64'
+466 silly reify ]
+467 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/darwin-x64
+468 silly reify mark deleted [
+468 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/darwin-x64'
+468 silly reify ]
+469 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/android-x64
+470 silly reify mark deleted [
+470 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/android-x64'
+470 silly reify ]
+471 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/android-arm64
+472 silly reify mark deleted [
+472 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/android-arm64'
+472 silly reify ]
+473 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/android-arm
+474 silly reify mark deleted [
+474 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/android-arm'
+474 silly reify ]
+475 verbose reify failed optional dependency /Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/aix-ppc64
+476 silly reify mark deleted [
+476 silly reify   '/Users/farhana/Documents/projects/selise-studio/frontend/node_modules/vite/node_modules/@esbuild/aix-ppc64'
+476 silly reify ]
+477 http cache safevalues@https://registry.npmjs.org/safevalues/-/safevalues-0.3.4.tgz 1ms (cache hit)
+478 http cache @material/progress-indicator@https://registry.npmjs.org/@material/progress-indicator/-/progress-indicator-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+479 http cache @material/focus-ring@https://registry.npmjs.org/@material/focus-ring/-/focus-ring-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+480 http cache @material/tokens@https://registry.npmjs.org/@material/tokens/-/tokens-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+481 http cache @material/typography@https://registry.npmjs.org/@material/typography/-/typography-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+482 http cache @material/tooltip@https://registry.npmjs.org/@material/tooltip/-/tooltip-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+483 http cache @material/top-app-bar@https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+484 http cache @material/theme@https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+485 http cache @material/touch-target@https://registry.npmjs.org/@material/touch-target/-/touch-target-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+486 http cache @material/textfield@https://registry.npmjs.org/@material/textfield/-/textfield-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+487 http cache @material/tab-scroller@https://registry.npmjs.org/@material/tab-scroller/-/tab-scroller-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+488 http cache @material/tab-indicator@https://registry.npmjs.org/@material/tab-indicator/-/tab-indicator-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+489 http cache @material/tab-bar@https://registry.npmjs.org/@material/tab-bar/-/tab-bar-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+490 http cache @material/tab@https://registry.npmjs.org/@material/tab/-/tab-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+491 http cache @material/switch@https://registry.npmjs.org/@material/switch/-/switch-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+492 http cache @material/snackbar@https://registry.npmjs.org/@material/snackbar/-/snackbar-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+493 http cache @material/slider@https://registry.npmjs.org/@material/slider/-/slider-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+494 http cache @material/shape@https://registry.npmjs.org/@material/shape/-/shape-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+495 http cache @material/select@https://registry.npmjs.org/@material/select/-/select-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+496 http cache @material/segmented-button@https://registry.npmjs.org/@material/segmented-button/-/segmented-button-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+497 http cache @material/rtl@https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+498 http cache @material/radio@https://registry.npmjs.org/@material/radio/-/radio-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+499 http cache @material/notched-outline@https://registry.npmjs.org/@material/notched-outline/-/notched-outline-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+500 http cache @material/ripple@https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+501 http cache @material/menu-surface@https://registry.npmjs.org/@material/menu-surface/-/menu-surface-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+502 http cache @material/menu@https://registry.npmjs.org/@material/menu/-/menu-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+503 http cache @material/list@https://registry.npmjs.org/@material/list/-/list-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+504 http cache @material/linear-progress@https://registry.npmjs.org/@material/linear-progress/-/linear-progress-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+505 http cache @material/line-ripple@https://registry.npmjs.org/@material/line-ripple/-/line-ripple-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+506 http cache @material/layout-grid@https://registry.npmjs.org/@material/layout-grid/-/layout-grid-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+507 http cache @material/image-list@https://registry.npmjs.org/@material/image-list/-/image-list-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+508 http cache @material/icon-button@https://registry.npmjs.org/@material/icon-button/-/icon-button-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+509 http cache @material/form-field@https://registry.npmjs.org/@material/form-field/-/form-field-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+510 http cache @material/floating-label@https://registry.npmjs.org/@material/floating-label/-/floating-label-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+511 http cache @material/feature-targeting@https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+512 http cache @material/fab@https://registry.npmjs.org/@material/fab/-/fab-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+513 http cache @material/elevation@https://registry.npmjs.org/@material/elevation/-/elevation-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+514 http cache @material/drawer@https://registry.npmjs.org/@material/drawer/-/drawer-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+515 http cache @material/density@https://registry.npmjs.org/@material/density/-/density-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+516 http cache @material/data-table@https://registry.npmjs.org/@material/data-table/-/data-table-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+517 http cache @material/circular-progress@https://registry.npmjs.org/@material/circular-progress/-/circular-progress-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+518 http cache @material/chips@https://registry.npmjs.org/@material/chips/-/chips-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+519 http cache @material/checkbox@https://registry.npmjs.org/@material/checkbox/-/checkbox-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+520 http cache @material/dom@https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+521 http cache @material/card@https://registry.npmjs.org/@material/card/-/card-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+522 http cache @material/button@https://registry.npmjs.org/@material/button/-/button-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+523 http cache @material/base@https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+524 http cache @material/banner@https://registry.npmjs.org/@material/banner/-/banner-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+525 http cache @material/auto-init@https://registry.npmjs.org/@material/auto-init/-/auto-init-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+526 http cache @material/animation@https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+527 http cache @angular/material@https://registry.npmjs.org/@angular/material/-/material-17.3.10.tgz 0ms (cache hit)
+528 http cache @angular/cdk@https://registry.npmjs.org/@angular/cdk/-/cdk-17.3.10.tgz 0ms (cache hit)
+529 http cache @material/dialog@https://registry.npmjs.org/@material/dialog/-/dialog-15.0.0-canary.7f224ddd4.0.tgz 0ms (cache hit)
+530 silly tarball no local data for safevalues@https://registry.npmjs.org/safevalues/-/safevalues-0.3.4.tgz. Extracting by manifest.
+531 silly tarball no local data for @material/progress-indicator@https://registry.npmjs.org/@material/progress-indicator/-/progress-indicator-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+532 silly tarball no local data for @material/typography@https://registry.npmjs.org/@material/typography/-/typography-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+533 silly tarball no local data for @material/focus-ring@https://registry.npmjs.org/@material/focus-ring/-/focus-ring-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+534 silly tarball no local data for @material/top-app-bar@https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+535 silly tarball no local data for @material/tooltip@https://registry.npmjs.org/@material/tooltip/-/tooltip-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+536 silly tarball no local data for @material/tokens@https://registry.npmjs.org/@material/tokens/-/tokens-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+537 silly tarball no local data for @material/theme@https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+538 silly tarball no local data for @material/touch-target@https://registry.npmjs.org/@material/touch-target/-/touch-target-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+539 silly tarball no local data for @material/tab-scroller@https://registry.npmjs.org/@material/tab-scroller/-/tab-scroller-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+540 silly tarball no local data for @material/tab-indicator@https://registry.npmjs.org/@material/tab-indicator/-/tab-indicator-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+541 silly tarball no local data for @material/tab-bar@https://registry.npmjs.org/@material/tab-bar/-/tab-bar-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+542 silly tarball no local data for @material/textfield@https://registry.npmjs.org/@material/textfield/-/textfield-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+543 silly tarball no local data for @material/tab@https://registry.npmjs.org/@material/tab/-/tab-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+544 silly tarball no local data for @material/switch@https://registry.npmjs.org/@material/switch/-/switch-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+545 silly tarball no local data for @material/shape@https://registry.npmjs.org/@material/shape/-/shape-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+546 silly tarball no local data for @material/select@https://registry.npmjs.org/@material/select/-/select-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+547 silly tarball no local data for @material/segmented-button@https://registry.npmjs.org/@material/segmented-button/-/segmented-button-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+548 silly tarball no local data for @material/rtl@https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+549 silly tarball no local data for @material/notched-outline@https://registry.npmjs.org/@material/notched-outline/-/notched-outline-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+550 silly tarball no local data for @material/snackbar@https://registry.npmjs.org/@material/snackbar/-/snackbar-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+551 silly tarball no local data for @material/ripple@https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+552 silly tarball no local data for @material/menu-surface@https://registry.npmjs.org/@material/menu-surface/-/menu-surface-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+553 silly tarball no local data for @material/list@https://registry.npmjs.org/@material/list/-/list-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+554 silly tarball no local data for @material/slider@https://registry.npmjs.org/@material/slider/-/slider-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+555 silly tarball no local data for @material/radio@https://registry.npmjs.org/@material/radio/-/radio-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+556 silly tarball no local data for @material/layout-grid@https://registry.npmjs.org/@material/layout-grid/-/layout-grid-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+557 silly tarball no local data for @material/menu@https://registry.npmjs.org/@material/menu/-/menu-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+558 silly tarball no local data for @material/image-list@https://registry.npmjs.org/@material/image-list/-/image-list-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+559 silly tarball no local data for @material/form-field@https://registry.npmjs.org/@material/form-field/-/form-field-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+560 silly tarball no local data for @material/floating-label@https://registry.npmjs.org/@material/floating-label/-/floating-label-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+561 silly tarball no local data for @material/feature-targeting@https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+562 silly tarball no local data for @material/fab@https://registry.npmjs.org/@material/fab/-/fab-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+563 silly tarball no local data for @material/line-ripple@https://registry.npmjs.org/@material/line-ripple/-/line-ripple-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+564 silly tarball no local data for @material/drawer@https://registry.npmjs.org/@material/drawer/-/drawer-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+565 silly tarball no local data for @material/density@https://registry.npmjs.org/@material/density/-/density-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+566 silly tarball no local data for @material/icon-button@https://registry.npmjs.org/@material/icon-button/-/icon-button-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+567 silly tarball no local data for @material/linear-progress@https://registry.npmjs.org/@material/linear-progress/-/linear-progress-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+568 silly tarball no local data for @material/elevation@https://registry.npmjs.org/@material/elevation/-/elevation-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+569 silly tarball no local data for @material/circular-progress@https://registry.npmjs.org/@material/circular-progress/-/circular-progress-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+570 silly tarball no local data for @material/chips@https://registry.npmjs.org/@material/chips/-/chips-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+571 silly tarball no local data for @material/dom@https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+572 silly tarball no local data for @material/checkbox@https://registry.npmjs.org/@material/checkbox/-/checkbox-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+573 silly tarball no local data for @material/card@https://registry.npmjs.org/@material/card/-/card-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+574 silly tarball no local data for @material/button@https://registry.npmjs.org/@material/button/-/button-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+575 silly tarball no local data for @material/base@https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+576 silly tarball no local data for @material/auto-init@https://registry.npmjs.org/@material/auto-init/-/auto-init-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+577 silly tarball no local data for @material/animation@https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+578 silly tarball no local data for @angular/material@https://registry.npmjs.org/@angular/material/-/material-17.3.10.tgz. Extracting by manifest.
+579 silly tarball no local data for @angular/cdk@https://registry.npmjs.org/@angular/cdk/-/cdk-17.3.10.tgz. Extracting by manifest.
+580 silly tarball no local data for @material/dialog@https://registry.npmjs.org/@material/dialog/-/dialog-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+581 silly tarball no local data for @material/data-table@https://registry.npmjs.org/@material/data-table/-/data-table-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+582 silly tarball no local data for @material/banner@https://registry.npmjs.org/@material/banner/-/banner-15.0.0-canary.7f224ddd4.0.tgz. Extracting by manifest.
+583 http fetch GET 200 https://registry.npmjs.org/safevalues/-/safevalues-0.3.4.tgz 121ms (cache miss)
+584 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 282ms
+585 silly audit report {
+585 silly audit report   '@angular/common': [
+585 silly audit report     {
+585 silly audit report       id: 1111063,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-58c5-g7wp-6w37',
+585 silly audit report       title: 'Angular is Vulnerable to XSRF Token Leakage via Protocol-Relative URLs in Angular HTTP Client',
+585 silly audit report       severity: 'high',
+585 silly audit report       vulnerable_versions: '<19.2.16',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   '@angular/compiler': [
+585 silly audit report     {
+585 silly audit report       id: 1111180,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-v4hv-rgfq-gp49',
+585 silly audit report       title: 'Angular Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes',
+585 silly audit report       severity: 'high',
+585 silly audit report       vulnerable_versions: '<=18.2.14',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     },
+585 silly audit report     {
+585 silly audit report       id: 1112021,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-jrmj-c5cx-3cw6',
+585 silly audit report       title: 'Angular has XSS Vulnerability via Unsanitized SVG Script Attributes',
+585 silly audit report       severity: 'high',
+585 silly audit report       vulnerable_versions: '<=18.2.14',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   '@angular/core': [
+585 silly audit report     {
+585 silly audit report       id: 1112020,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-jrmj-c5cx-3cw6',
+585 silly audit report       title: 'Angular has XSS Vulnerability via Unsanitized SVG Script Attributes',
+585 silly audit report       severity: 'high',
+585 silly audit report       vulnerable_versions: '<=18.2.14',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   esbuild: [
+585 silly audit report     {
+585 silly audit report       id: 1102341,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+585 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '<=0.24.2',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   'http-proxy-middleware': [
+585 silly audit report     {
+585 silly audit report       id: 1104105,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-9gqv-wp59-fq42',
+585 silly audit report       title: 'http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed',
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '>=1.3.0 <2.0.9',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   tmp: [
+585 silly audit report     {
+585 silly audit report       id: 1109537,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-52f5-9888-hmc6',
+585 silly audit report       title: 'tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter',
+585 silly audit report       severity: 'low',
+585 silly audit report       vulnerable_versions: '<=0.2.3',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ],
+585 silly audit report   'webpack-dev-server': [
+585 silly audit report     {
+585 silly audit report       id: 1108429,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-9jgg-88mc-972h',
+585 silly audit report       title: "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '<=5.2.0',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     },
+585 silly audit report     {
+585 silly audit report       id: 1108430,
+585 silly audit report       url: 'https://github.com/advisories/GHSA-4v9v-hfq4-rm2v',
+585 silly audit report       title: "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+585 silly audit report       severity: 'moderate',
+585 silly audit report       vulnerable_versions: '<=5.2.0',
+585 silly audit report       cwe: [Array],
+585 silly audit report       cvss: [Object]
+585 silly audit report     }
+585 silly audit report   ]
+585 silly audit report }
+586 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcommon cache-miss
+587 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcompiler cache-miss
+588 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcore cache-miss
+589 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+590 silly packumentCache corgi:https://registry.npmjs.org/http-proxy-middleware cache-miss
+591 silly packumentCache corgi:https://registry.npmjs.org/tmp cache-miss
+592 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-server cache-miss
+593 http cache https://registry.npmjs.org/tmp 11ms (cache hit)
+594 silly packumentCache corgi:https://registry.npmjs.org/tmp set size:23979 disposed:false
+595 http fetch GET 200 https://registry.npmjs.org/@material/focus-ring/-/focus-ring-15.0.0-canary.7f224ddd4.0.tgz 498ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.7f224ddd4.0.tgz 551ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/@material/tab-indicator/-/tab-indicator-15.0.0-canary.7f224ddd4.0.tgz 551ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/@material/textfield/-/textfield-15.0.0-canary.7f224ddd4.0.tgz 625ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/@material/shape/-/shape-15.0.0-canary.7f224ddd4.0.tgz 779ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-15.0.0-canary.7f224ddd4.0.tgz 878ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/@material/switch/-/switch-15.0.0-canary.7f224ddd4.0.tgz 879ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/@material/touch-target/-/touch-target-15.0.0-canary.7f224ddd4.0.tgz 934ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/@material/tab/-/tab-15.0.0-canary.7f224ddd4.0.tgz 1005ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/@material/progress-indicator/-/progress-indicator-15.0.0-canary.7f224ddd4.0.tgz 1010ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/@material/typography/-/typography-15.0.0-canary.7f224ddd4.0.tgz 1033ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.7f224ddd4.0.tgz 1086ms (cache miss)
+607 http fetch GET 200 https://registry.npmjs.org/@material/tokens/-/tokens-15.0.0-canary.7f224ddd4.0.tgz 1089ms (cache miss)
+608 http fetch GET 200 https://registry.npmjs.org/@material/segmented-button/-/segmented-button-15.0.0-canary.7f224ddd4.0.tgz 1245ms (cache miss)
+609 http fetch GET 200 https://registry.npmjs.org/@material/select/-/select-15.0.0-canary.7f224ddd4.0.tgz 1295ms (cache miss)
+610 http fetch GET 200 https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.7f224ddd4.0.tgz 1377ms (cache miss)
+611 http fetch GET 200 https://registry.npmjs.org/@material/tab-scroller/-/tab-scroller-15.0.0-canary.7f224ddd4.0.tgz 1417ms (cache miss)
+612 http fetch GET 200 https://registry.npmjs.org/@material/tab-bar/-/tab-bar-15.0.0-canary.7f224ddd4.0.tgz 1529ms (cache miss)
+613 http fetch GET 200 https://registry.npmjs.org/@material/list/-/list-15.0.0-canary.7f224ddd4.0.tgz 1540ms (cache miss)
+614 http fetch GET 200 https://registry.npmjs.org/@material/slider/-/slider-15.0.0-canary.7f224ddd4.0.tgz 1737ms (cache miss)
+615 http fetch GET 200 https://registry.npmjs.org/@material/floating-label/-/floating-label-15.0.0-canary.7f224ddd4.0.tgz 1746ms (cache miss)
+616 http fetch GET 200 https://registry.npmjs.org/@material/notched-outline/-/notched-outline-15.0.0-canary.7f224ddd4.0.tgz 1825ms (cache miss)
+617 http fetch GET 200 https://registry.npmjs.org/@material/snackbar/-/snackbar-15.0.0-canary.7f224ddd4.0.tgz 1838ms (cache miss)
+618 http fetch GET 200 https://registry.npmjs.org/@material/menu-surface/-/menu-surface-15.0.0-canary.7f224ddd4.0.tgz 1869ms (cache miss)
+619 http fetch GET 200 https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.7f224ddd4.0.tgz 1895ms (cache miss)
+620 http fetch GET 200 https://registry.npmjs.org/@material/form-field/-/form-field-15.0.0-canary.7f224ddd4.0.tgz 1897ms (cache miss)
+621 http fetch GET 200 https://registry.npmjs.org/@material/layout-grid/-/layout-grid-15.0.0-canary.7f224ddd4.0.tgz 1941ms (cache miss)
+622 http fetch GET 200 https://registry.npmjs.org/@material/image-list/-/image-list-15.0.0-canary.7f224ddd4.0.tgz 2045ms (cache miss)
+623 http fetch GET 200 https://registry.npmjs.org/@material/tooltip/-/tooltip-15.0.0-canary.7f224ddd4.0.tgz 2140ms (cache miss)
+624 http fetch GET 200 https://registry.npmjs.org/@material/density/-/density-15.0.0-canary.7f224ddd4.0.tgz 2251ms (cache miss)
+625 http fetch GET 200 https://registry.npmjs.org/@material/radio/-/radio-15.0.0-canary.7f224ddd4.0.tgz 2277ms (cache miss)
+626 http fetch GET 200 https://registry.npmjs.org/@material/circular-progress/-/circular-progress-15.0.0-canary.7f224ddd4.0.tgz 2384ms (cache miss)
+627 http fetch GET 200 https://registry.npmjs.org/@material/elevation/-/elevation-15.0.0-canary.7f224ddd4.0.tgz 2401ms (cache miss)
+628 http fetch GET 200 https://registry.npmjs.org/@material/linear-progress/-/linear-progress-15.0.0-canary.7f224ddd4.0.tgz 2458ms (cache miss)
+629 http fetch GET 200 https://registry.npmjs.org/@material/drawer/-/drawer-15.0.0-canary.7f224ddd4.0.tgz 2573ms (cache miss)
+630 http fetch GET 200 https://registry.npmjs.org/@material/checkbox/-/checkbox-15.0.0-canary.7f224ddd4.0.tgz 2644ms (cache miss)
+631 http fetch GET 200 https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.7f224ddd4.0.tgz 2702ms (cache miss)
+632 http fetch GET 200 https://registry.npmjs.org/@material/card/-/card-15.0.0-canary.7f224ddd4.0.tgz 2734ms (cache miss)
+633 http fetch GET 200 https://registry.npmjs.org/@material/line-ripple/-/line-ripple-15.0.0-canary.7f224ddd4.0.tgz 2770ms (cache miss)
+634 http fetch GET 200 https://registry.npmjs.org/@material/fab/-/fab-15.0.0-canary.7f224ddd4.0.tgz 2787ms (cache miss)
+635 http fetch GET 200 https://registry.npmjs.org/@material/auto-init/-/auto-init-15.0.0-canary.7f224ddd4.0.tgz 2807ms (cache miss)
+636 http fetch GET 200 https://registry.npmjs.org/@material/icon-button/-/icon-button-15.0.0-canary.7f224ddd4.0.tgz 2996ms (cache miss)
+637 http fetch GET 200 https://registry.npmjs.org/@material/chips/-/chips-15.0.0-canary.7f224ddd4.0.tgz 3022ms (cache miss)
+638 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 2805ms (cache miss)
+639 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcompiler set size:undefined disposed:false
+640 http fetch GET 200 https://registry.npmjs.org/esbuild 2867ms (cache miss)
+641 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+642 http fetch GET 200 https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.7f224ddd4.0.tgz 3156ms (cache miss)
+643 http fetch GET 200 https://registry.npmjs.org/@material/menu/-/menu-15.0.0-canary.7f224ddd4.0.tgz 3544ms (cache miss)
+644 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 3671ms (cache miss)
+645 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-server set size:undefined disposed:false
+646 http fetch GET 200 https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.7f224ddd4.0.tgz 4048ms (cache miss)
+647 http fetch GET 200 https://registry.npmjs.org/http-proxy-middleware 3774ms (cache miss)
+648 silly packumentCache corgi:https://registry.npmjs.org/http-proxy-middleware set size:undefined disposed:false
+649 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 3892ms (cache miss)
+650 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcommon set size:undefined disposed:false
+651 http fetch GET 200 https://registry.npmjs.org/@material/data-table/-/data-table-15.0.0-canary.7f224ddd4.0.tgz 4440ms (cache miss)
+652 http fetch GET 200 https://registry.npmjs.org/@material/dialog/-/dialog-15.0.0-canary.7f224ddd4.0.tgz 4735ms (cache miss)
+653 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 4479ms (cache miss)
+654 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcore set size:undefined disposed:false
+655 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fforms cache-miss
+656 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fplatform-browser cache-miss
+657 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fplatform-browser-dynamic cache-miss
+658 silly packumentCache corgi:https://registry.npmjs.org/@angular%2frouter cache-miss
+659 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcdk cache-miss
+660 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fmaterial cache-miss
+661 http fetch GET 200 https://registry.npmjs.org/@angular%2frouter 580ms (cache miss)
+662 silly packumentCache corgi:https://registry.npmjs.org/@angular%2frouter set size:undefined disposed:false
+663 http fetch GET 200 https://registry.npmjs.org/@material/banner/-/banner-15.0.0-canary.7f224ddd4.0.tgz 5758ms (cache miss)
+664 http fetch GET 200 https://registry.npmjs.org/@angular/cdk/-/cdk-17.3.10.tgz 5760ms (cache miss)
+665 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 996ms (cache miss)
+666 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fplatform-browser set size:undefined disposed:false
+667 http fetch GET 200 https://registry.npmjs.org/@angular%2fcdk 1006ms (cache miss)
+668 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcdk set size:undefined disposed:false
+669 http fetch GET 200 https://registry.npmjs.org/@angular%2fforms 1097ms (cache miss)
+670 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fforms set size:undefined disposed:false
+671 http fetch GET 200 https://registry.npmjs.org/@angular%2fmaterial 1110ms (cache miss)
+672 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fmaterial set size:undefined disposed:false
+673 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic 1129ms (cache miss)
+674 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fplatform-browser-dynamic set size:undefined disposed:false
+675 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcompiler-cli cache-miss
+676 http fetch GET 200 https://registry.npmjs.org/@material/button/-/button-15.0.0-canary.7f224ddd4.0.tgz 6312ms (cache miss)
+677 http fetch GET 200 https://registry.npmjs.org/@angular/material/-/material-17.3.10.tgz 7004ms (cache miss)
+678 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 1262ms (cache miss)
+679 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcompiler-cli set size:undefined disposed:false
+680 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fanimations cache-miss
+681 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 1407ms (cache miss)
+682 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fanimations set size:undefined disposed:false
+683 silly packumentCache corgi:https://registry.npmjs.org/@angular-devkit%2fbuild-angular cache-miss
+684 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+685 http fetch GET 200 https://registry.npmjs.org/vite 440ms (cache miss)
+686 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+687 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-angular 547ms (cache miss)
+688 silly packumentCache corgi:https://registry.npmjs.org/@angular-devkit%2fbuild-angular set size:undefined disposed:false
+689 silly packumentCache corgi:https://registry.npmjs.org/external-editor cache-miss
+690 http cache https://registry.npmjs.org/external-editor 1ms (cache hit)
+691 silly packumentCache corgi:https://registry.npmjs.org/external-editor set size:17808 disposed:false
+692 silly packumentCache corgi:https://registry.npmjs.org/@angular-devkit%2fbuild-webpack cache-miss
+693 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-webpack 679ms (cache miss)
+694 silly packumentCache corgi:https://registry.npmjs.org/@angular-devkit%2fbuild-webpack set size:undefined disposed:false
+695 silly packumentCache corgi:https://registry.npmjs.org/@ngtools%2fwebpack cache-miss
+696 http fetch GET 200 https://registry.npmjs.org/@ngtools%2fwebpack 1230ms (cache miss)
+697 silly packumentCache corgi:https://registry.npmjs.org/@ngtools%2fwebpack set size:undefined disposed:false
+698 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-basic-ssl cache-miss
+699 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-basic-ssl 507ms (cache miss)
+700 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-basic-ssl set size:undefined disposed:false
+701 silly packumentCache corgi:https://registry.npmjs.org/inquirer cache-miss
+702 http cache https://registry.npmjs.org/inquirer 2ms (cache hit)
+703 silly packumentCache corgi:https://registry.npmjs.org/inquirer set size:252639 disposed:false
+704 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcli cache-miss
+705 http cache https://registry.npmjs.org/@angular%2fcli 15ms (cache hit)
+706 silly packumentCache corgi:https://registry.npmjs.org/@angular%2fcli set size:1720188 disposed:false
+707 silly ADD node_modules/@material/progress-indicator
+708 silly ADD node_modules/safevalues
+709 silly ADD node_modules/@material/focus-ring
+710 silly ADD node_modules/@material/tokens
+711 silly ADD node_modules/@material/typography
+712 silly ADD node_modules/@material/touch-target
+713 silly ADD node_modules/@material/top-app-bar
+714 silly ADD node_modules/@material/tooltip
+715 silly ADD node_modules/@material/theme
+716 silly ADD node_modules/@material/textfield
+717 silly ADD node_modules/@material/tab-scroller
+718 silly ADD node_modules/@material/tab-indicator
+719 silly ADD node_modules/@material/tab-bar
+720 silly ADD node_modules/@material/tab
+721 silly ADD node_modules/@material/switch
+722 silly ADD node_modules/@material/snackbar
+723 silly ADD node_modules/@material/slider
+724 silly ADD node_modules/@material/shape
+725 silly ADD node_modules/@material/select
+726 silly ADD node_modules/@material/segmented-button
+727 silly ADD node_modules/@material/rtl
+728 silly ADD node_modules/@material/ripple
+729 silly ADD node_modules/@material/radio
+730 silly ADD node_modules/@material/notched-outline
+731 silly ADD node_modules/@material/menu-surface
+732 silly ADD node_modules/@material/menu
+733 silly ADD node_modules/@material/list
+734 silly ADD node_modules/@material/linear-progress
+735 silly ADD node_modules/@material/line-ripple
+736 silly ADD node_modules/@material/layout-grid
+737 silly ADD node_modules/@material/image-list
+738 silly ADD node_modules/@material/icon-button
+739 silly ADD node_modules/@material/form-field
+740 silly ADD node_modules/@material/floating-label
+741 silly ADD node_modules/@material/feature-targeting
+742 silly ADD node_modules/@material/fab
+743 silly ADD node_modules/@material/elevation
+744 silly ADD node_modules/@material/drawer
+745 silly ADD node_modules/@material/dom
+746 silly ADD node_modules/@material/dialog
+747 silly ADD node_modules/@material/density
+748 silly ADD node_modules/@material/data-table
+749 silly ADD node_modules/@material/circular-progress
+750 silly ADD node_modules/@material/chips
+751 silly ADD node_modules/@material/checkbox
+752 silly ADD node_modules/@material/card
+753 silly ADD node_modules/@material/button
+754 silly ADD node_modules/@material/base
+755 silly ADD node_modules/@material/banner
+756 silly ADD node_modules/@material/auto-init
+757 silly ADD node_modules/@material/animation
+758 silly ADD node_modules/@angular/material
+759 silly ADD node_modules/@angular/cdk
+760 silly ADD
+761 silly ADD
+762 silly ADD
+763 silly ADD
+764 silly ADD
+765 silly ADD
+766 silly ADD
+767 silly ADD
+768 silly ADD
+769 silly ADD
+770 silly ADD
+771 silly ADD
+772 silly ADD
+773 silly ADD
+774 silly ADD
+775 silly ADD
+776 silly ADD
+777 silly ADD
+778 silly ADD
+779 silly ADD
+780 silly ADD
+781 silly ADD
+782 silly ADD
+783 silly ADD
+784 silly ADD
+785 silly ADD
+786 silly ADD
+787 silly ADD
+788 silly ADD
+789 silly ADD
+790 silly ADD
+791 silly ADD
+792 silly ADD
+793 silly ADD
+794 silly ADD
+795 silly ADD
+796 silly ADD
+797 silly ADD
+798 silly ADD
+799 silly ADD
+800 silly ADD
+801 silly ADD
+802 silly ADD
+803 silly ADD
+804 silly ADD
+805 silly ADD
+806 silly ADD
+807 silly ADD
+808 silly ADD
+809 silly ADD
+810 silly ADD
+811 silly ADD
+812 silly ADD
+813 silly ADD
+814 silly ADD
+815 silly ADD
+816 silly ADD
+817 silly ADD
+818 silly ADD
+819 silly ADD
+820 silly ADD
+821 silly ADD
+822 silly ADD
+823 silly ADD
+824 silly ADD
+825 silly ADD
+826 silly ADD
+827 silly ADD
+828 verbose cwd /Users/farhana/Documents/projects/selise-studio/frontend
+829 verbose os Darwin 24.1.0
+830 verbose node v22.14.0
+831 verbose npm  v10.9.2
+832 verbose exit 0
+833 info ok

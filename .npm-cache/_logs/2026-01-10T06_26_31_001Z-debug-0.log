@@ -1,0 +1,87 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/farhana/Documents/projects/selise-studio/frontend/.npmrc
+5 silly config load:file:/Users/farhana/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @angular/material @angular/cdk
+8 verbose argv "install" "@angular/material" "@angular/cdk"
+9 verbose logfile logs-max:10 dir:/Users/farhana/Documents/projects/selise-studio/.npm-cache/_logs/2026-01-10T06_26_31_001Z-
+10 verbose logfile /Users/farhana/Documents/projects/selise-studio/.npm-cache/_logs/2026-01-10T06_26_31_001Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @angular/material@*
+15 silly packumentCache full:https://registry.npmjs.org/@angular%2fmaterial cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@angular%2fmaterial 282ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@angular%2fmaterial set size:undefined disposed:false
+18 silly fetch manifest @angular/cdk@*
+19 silly packumentCache full:https://registry.npmjs.org/@angular%2fcdk cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@angular%2fcdk 294ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@angular%2fcdk set size:undefined disposed:false
+22 silly fetch manifest @angular/common@^17.3.0
+23 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 113ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon set size:undefined disposed:false
+26 silly fetch manifest @angular/common@^21.0.0 || ^22.0.0
+27 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon cache-miss
+28 http cache https://registry.npmjs.org/@angular%2fcommon 9ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/@angular%2fcommon set size:2967259 disposed:false
+30 silly fetch manifest @angular/core@^17.3.0
+31 silly packumentCache full:https://registry.npmjs.org/@angular%2fcore cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 358ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@angular%2fcore set size:undefined disposed:false
+34 silly fetch manifest rxjs@~7.8.0
+35 silly packumentCache full:https://registry.npmjs.org/rxjs cache-miss
+36 http cache https://registry.npmjs.org/rxjs 4ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/rxjs set size:980097 disposed:false
+38 silly fetch manifest zone.js@~0.14.3
+39 silly packumentCache full:https://registry.npmjs.org/zone.js cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/zone.js 39ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/zone.js set size:undefined disposed:false
+42 verbose stack Error: unable to resolve dependency tree
+42 verbose stack     at #failPeerConflict (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1363:25)
+42 verbose stack     at #loadPeerSet (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1329:33)
+42 verbose stack     at async #loadPeerSet (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1308:23)
+42 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:904:11)
+42 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+42 verbose stack     at async Promise.all (index 1)
+42 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+42 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+42 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+42 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+43 error code ERESOLVE
+44 error ERESOLVE unable to resolve dependency tree
+45 error
+46 error While resolving: frontend@0.0.0
+46 error Found: @angular/common@17.3.12[2m[22m
+46 error [2mnode_modules/@angular/common[22m
+46 error   @angular/common@"^17.3.0" from the root project
+46 error
+46 error Could not resolve dependency:
+46 error [95mpeer[39m @angular/common@"^21.0.0 || ^22.0.0" from @angular/cdk@21.0.6[2m[22m
+46 error [2mnode_modules/@angular/cdk[22m
+46 error   @angular/cdk@"*" from the root project
+46 error   [95mpeer[39m @angular/cdk@"21.0.6" from @angular/material@21.0.6[2m[22m
+46 error   [2mnode_modules/@angular/material[22m
+46 error     @angular/material@"*" from the root project
+46 error
+46 error Fix the upstream dependency conflict, or retry
+46 error this command with --force or --legacy-peer-deps
+46 error to accept an incorrect (and potentially broken) dependency resolution.
+47 error
+47 error
+47 error For a full report see:
+47 error /Users/farhana/Documents/projects/selise-studio/.npm-cache/_logs/2026-01-10T06_26_31_001Z-eresolve-report.txt
+48 silly unfinished npm timer reify 1768026391086
+49 silly unfinished npm timer reify:loadTrees 1768026391087
+50 silly unfinished npm timer idealTree:buildDeps 1768026391191
+51 silly unfinished npm timer idealTree:#root 1768026391191
+52 verbose cwd /Users/farhana/Documents/projects/selise-studio/frontend
+53 verbose os Darwin 24.1.0
+54 verbose node v22.14.0
+55 verbose npm  v10.9.2
+56 verbose exit 1
+57 verbose code 1
+58 error A complete log of this run can be found in: /Users/farhana/Documents/projects/selise-studio/.npm-cache/_logs/2026-01-10T06_26_31_001Z-debug-0.log
